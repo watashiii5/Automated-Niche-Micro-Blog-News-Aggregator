@@ -24,10 +24,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -66,24 +66,21 @@ jobs:
             git push
           fi
 
-      # The site is deployed from the Actions artifact (NOT from the branch),
-      # so site_auth.json never gets committed to the public repository.
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      # Stage only the files that should be served on the site.
+      # site_auth.json is generated above from secrets and never committed.
+      - name: Stage site files
+        run: |
+          mkdir -p _site
+          cp index.html index.json feed.xml .nojekyll _site/
+          cp -r posts _site/
+          if [ -f site_auth.json ]; then cp site_auth.json _site/; fi
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
-          path: .
-          exclude: |
-            .git
-            .github
-            .gitignore
-            **/__pycache__
-            *.pyc
+          path: _site
+          include-hidden-files: true
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

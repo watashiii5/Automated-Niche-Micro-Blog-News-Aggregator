@@ -7,3 +7,6 @@ venv/
 
 # generated at build time from GitHub secrets; never committed
 site_auth.json
+
+# local staging dir used by the Pages deploy workflow
+_site/
