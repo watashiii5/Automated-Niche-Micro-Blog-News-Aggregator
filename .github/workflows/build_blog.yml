@@ -1,6 +1,10 @@
 name: Build Blog
 
 on:
+  # Push-triggered runs deploy immediately but never commit back (the content
+  # is already in the repo), so a push can't cause a commit/push loop.
+  push:
+    branches: [main]
   schedule:
     # Daily at 06:00 UTC. GitHub schedules crons in UTC.
     # NOTE: GitHub disables scheduled workflows in public repos that are
@@ -56,6 +60,13 @@ jobs:
 
       - name: Commit and push generated content
         run: |
+          # Push-triggered runs already contain the committed content, and
+          # committing the fresh index.json/feed.xml timestamps here would
+          # trigger another push -> another run (infinite loop). Skip it.
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "Push-triggered run: content is already committed - skipping commit step."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
