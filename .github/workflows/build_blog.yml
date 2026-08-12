@@ -42,7 +42,7 @@ jobs:
           # Optional overrides (see README.md). Uncomment to customize:
           # FEED_URL: https://hnrss.org/frontpage
           # TOPIC: AI tools, open-source AI models, indie hacker launches
-          # GEMINI_MODEL: gemini-2.5-flash
+          # GEMINI_MODEL: gemini-3.6-flash
           # MAX_POSTS_PER_RUN: "2"
           # SITE_URL: https://<your-user>.github.io/<your-repo>/
         run: python script.py

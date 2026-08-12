@@ -136,7 +136,7 @@ or inline locally).
 | Variable             | Default                                  | Description                                        |
 | -------------------- | ---------------------------------------- | -------------------------------------------------- |
 | `GEMINI_API_KEY`     | *(required)*                             | Google AI Studio API key.                          |
-| `GEMINI_MODEL`       | `gemini-2.5-flash`                       | Gemini model to use for generation.                |
+| `GEMINI_MODEL`       | `gemini-3.6-flash`                       | Gemini model to use for generation.                |
 | `FEED_URL`           | `https://hnrss.org/frontpage`            | RSS/Atom feed to aggregate.                        |
 | `TOPIC`              | `AI tools..., indie hacker launches...`  | Niche description used for relevance filtering.    |
 | `MAX_FETCH`          | `15`                                     | How many feed entries to consider per run.         |

@@ -69,7 +69,7 @@ SITE_URL = os.getenv(
     "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/",
 )
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 FEED_URL = os.getenv("FEED_URL", "https://hnrss.org/frontpage")
 TOPIC = os.getenv(
     "TOPIC",
