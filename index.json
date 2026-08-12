@@ -3,7 +3,38 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-12T08:13:30Z",
-  "count": 0,
-  "posts": []
+  "generated": "2026-08-12T08:21:05Z",
+  "count": 2,
+  "posts": [
+    {
+      "title": "Meet LinkedIn CringeBot 3000",
+      "date": "2026-08-12",
+      "tags": [
+        "ai",
+        "tools",
+        "indie",
+        "linkedin"
+      ],
+      "summary": "Discover LinkedIn CringeBot 3000, a new web tool recently shared with the tech community. Here is a quick look at this latest launch.",
+      "source_url": "https://www.cringebot3000.com/",
+      "source_title": "LinkedIn CringeBot 3000",
+      "slug": "2026-08-12-meet-linkedin-cringebot-3000",
+      "file": "posts/2026-08-12-meet-linkedin-cringebot-3000.md"
+    },
+    {
+      "title": "AI Agents Are Solving the Massive GPU Overheating Crisis",
+      "date": "2026-08-12",
+      "tags": [
+        "ai",
+        "hardware",
+        "semiconductors",
+        "startup"
+      ],
+      "summary": "Startup Discovered Materials uses AI agents to design next-gen semiconductor materials, tackling the surging heat problem in modern AI hardware.",
+      "source_url": "https://discoveredmaterials.com/research/",
+      "source_title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+      "slug": "2026-08-12-ai-agents-are-solving-the-massive-gpu-overheating-crisis",
+      "file": "posts/2026-08-12-ai-agents-are-solving-the-massive-gpu-overheating-crisis.md"
+    }
+  ]
 }
