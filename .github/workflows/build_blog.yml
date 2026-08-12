@@ -10,6 +10,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: build-blog
@@ -45,6 +47,13 @@ jobs:
           # SITE_URL: https://<your-user>.github.io/<your-repo>/
         run: python script.py
 
+      - name: Generate login gate (hashed credentials, never committed)
+        env:
+          # Optional. Without these secrets the blog stays public.
+          ADMIN_USERNAME: ${{ secrets.ADMIN_USERNAME }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+        run: python script.py --auth
+
       - name: Commit and push generated content
         run: |
           git config user.name "github-actions[bot]"
@@ -56,3 +65,25 @@ jobs:
             git commit -m "blog: publish latest aggregated posts"
             git push
           fi
+
+      # The site is deployed from the Actions artifact (NOT from the branch),
+      # so site_auth.json never gets committed to the public repository.
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+          exclude: |
+            .git
+            .github
+            .gitignore
+            **/__pycache__
+            *.pyc
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

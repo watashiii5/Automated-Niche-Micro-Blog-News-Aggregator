@@ -37,6 +37,7 @@
         <p class="mt-0.5 text-sm text-zinc-400">Daily AI tools, open-source models &amp; indie hacker signals.</p>
       </div>
       <div class="flex items-center gap-2 text-xs">
+        <button id="signout" class="hidden rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-zinc-400 hover:border-red-500/60 hover:text-red-400 transition-colors">Sign out</button>
         <a href="feed.xml" class="rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-zinc-400 hover:text-emerald-300 hover:border-emerald-500/60 transition-colors">RSS</a>
         <a href="index.json" class="rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-zinc-400 hover:text-emerald-300 hover:border-emerald-500/60 transition-colors">JSON</a>
       </div>
@@ -68,6 +69,32 @@
       <p>Hosted free on <a href="https://pages.github.com/" target="_blank" rel="noopener" class="text-zinc-400 underline underline-offset-2 hover:text-emerald-300">GitHub Pages</a></p>
     </div>
   </footer>
+
+  <div id="auth-screen" class="hidden fixed inset-0 z-50 items-center justify-center bg-zinc-950/95 p-4 backdrop-blur-sm">
+    <div class="w-full max-w-sm rounded-2xl border border-zinc-800 bg-zinc-900 p-8">
+      <h2 class="text-lg font-bold text-zinc-100">NichePulse<span class="text-emerald-400">.</span></h2>
+      <p class="mt-1 text-sm text-zinc-400">This micro-blog is password-protected. Sign in to read the latest posts.</p>
+      <form id="login-form" class="mt-6 space-y-4">
+        <div>
+          <label for="login-username" class="block text-xs font-medium text-zinc-400">Username</label>
+          <input id="login-username" name="username" type="text" autocomplete="username" required
+            class="mt-1 w-full rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder-zinc-600 outline-none focus:border-emerald-500/60 focus:ring-1 focus:ring-emerald-500/40" />
+        </div>
+        <div>
+          <label for="login-password" class="block text-xs font-medium text-zinc-400">Password</label>
+          <input id="login-password" name="password" type="password" autocomplete="current-password" required
+            class="mt-1 w-full rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder-zinc-600 outline-none focus:border-emerald-500/60 focus:ring-1 focus:ring-emerald-500/40" />
+        </div>
+        <label class="flex items-center gap-2 text-xs text-zinc-400">
+          <input id="login-remember" type="checkbox" class="accent-emerald-500" />
+          Keep me signed in on this device
+        </label>
+        <p id="login-error" class="hidden text-sm text-red-400"></p>
+        <button id="login-submit" type="submit"
+          class="w-full rounded-xl bg-emerald-500 px-4 py-2.5 text-sm font-semibold text-zinc-950 transition-colors hover:bg-emerald-400">Sign in</button>
+      </form>
+    </div>
+  </div>
 
   <div id="modal" class="hidden fixed inset-0 z-50 items-center justify-center bg-black/70 p-4 backdrop-blur-sm">
     <div class="relative max-h-[85vh] w-full max-w-2xl overflow-y-auto rounded-2xl border border-zinc-800 bg-zinc-900 p-6 sm:p-8">
@@ -225,7 +252,100 @@
       }
     }
 
-    async function init() {
+    // ---- Login gate -----------------------------------------------------
+    let unlockBlog = null;
+
+    function sha256Hex(text) {
+      return crypto.subtle
+        .digest("SHA-256", new TextEncoder().encode(text))
+        .then((buf) => [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join(""));
+    }
+
+    async function verifyLogin(username, password) {
+      try {
+        const auth = JSON.parse(await fetchText("site_auth.json"));
+        const userHash = await sha256Hex(username.trim().toLowerCase());
+        if (userHash !== auth.username_hash) return false;
+        const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveBits"]);
+        const bits = await crypto.subtle.deriveBits(
+          { name: "PBKDF2", salt: new TextEncoder().encode(auth.salt), iterations: auth.iterations, hash: "SHA-256" },
+          key,
+          256
+        );
+        const passHash = [...new Uint8Array(bits)].map((b) => b.toString(16).padStart(2, "0")).join("");
+        return passHash === auth.password_hash;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function showAuthScreen() {
+      const screen = document.getElementById("auth-screen");
+      screen.classList.remove("hidden");
+      screen.classList.add("flex");
+      document.getElementById("login-username").focus();
+    }
+
+    function hideAuthScreen() {
+      const screen = document.getElementById("auth-screen");
+      screen.classList.add("hidden");
+      screen.classList.remove("flex");
+    }
+
+    async function checkAuth() {
+      try {
+        await fetchText("site_auth.json"); // file present => gate is enabled
+      } catch (e) {
+        return true; // no gate configured, blog is public
+      }
+      if (sessionStorage.getItem("np_auth") === "1" || localStorage.getItem("np_auth") === "1") {
+        document.getElementById("signout").classList.remove("hidden");
+        return true;
+      }
+      if (!window.crypto || !crypto.subtle) {
+        const err = document.getElementById("login-error");
+        err.textContent = "This site must be opened over HTTPS to sign in.";
+        err.classList.remove("hidden");
+      }
+      showAuthScreen();
+      return false;
+    }
+
+    document.getElementById("login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const err = document.getElementById("login-error");
+      const btn = document.getElementById("login-submit");
+      err.classList.add("hidden");
+      btn.disabled = true;
+      btn.textContent = "Signing in…";
+      const ok = await verifyLogin(
+        document.getElementById("login-username").value,
+        document.getElementById("login-password").value
+      );
+      btn.disabled = false;
+      btn.textContent = "Sign in";
+      if (!ok) {
+        err.textContent = "Incorrect username or password.";
+        err.classList.remove("hidden");
+        return;
+      }
+      if (document.getElementById("login-remember").checked) {
+        localStorage.setItem("np_auth", "1");
+      } else {
+        sessionStorage.setItem("np_auth", "1");
+      }
+      document.getElementById("signout").classList.remove("hidden");
+      hideAuthScreen();
+      if (unlockBlog) unlockBlog();
+    });
+
+    document.getElementById("signout").addEventListener("click", () => {
+      sessionStorage.removeItem("np_auth");
+      localStorage.removeItem("np_auth");
+      location.reload();
+    });
+
+    async function loadBlog() {
       const meta = document.getElementById("meta");
       try {
         const data = JSON.parse(await fetchText("index.json"));
@@ -239,6 +359,14 @@
       } catch (e) {
         meta.textContent = "The index has not been generated yet. Run the aggregator once to publish the first posts.";
         document.getElementById("empty").classList.remove("hidden");
+      }
+    }
+
+    async function init() {
+      if (await checkAuth()) {
+        loadBlog();
+      } else {
+        unlockBlog = loadBlog;
       }
     }
 

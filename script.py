@@ -21,6 +21,7 @@ import hashlib
 import json
 import os
 import re
+import secrets
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -80,6 +81,11 @@ USER_AGENT = os.getenv(
 )
 MAX_FETCH = _env_int("MAX_FETCH", 15)
 MAX_POSTS_PER_RUN = _env_int("MAX_POSTS_PER_RUN", 2)
+
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "")
+AUTH_PATH = BASE_DIR / "site_auth.json"
+PBKDF2_ITERATIONS = _env_int("PBKDF2_ITERATIONS", 100_000)
 
 PROMPT_TEMPLATE = """You are the editor of "{site}", a hyper-niche micro-blog that publishes short, punchy posts about: {topic}
 
@@ -368,6 +374,41 @@ def write_feed(posts: list[dict]) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Client-side login gate (site_auth.json)
+# ---------------------------------------------------------------------------
+
+def generate_auth_file(username: str, password: str, iterations: int = PBKDF2_ITERATIONS) -> Path:
+    """Derive a salted PBKDF2 hash of the password and write site_auth.json.
+
+    NOTE: This is a CLIENT-SIDE gate only. GitHub Pages has no server, so
+    this cannot provide real access control — it only deters casual visitors.
+    The plaintext credentials are never written to disk; they stay in GitHub
+    secrets and only a salted hash lands in the deployed site.
+    """
+    salt = secrets.token_hex(16)
+    dk = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt.encode("ascii"), iterations)
+    payload = {
+        "v": 1,
+        "username_hash": hashlib.sha256(username.strip().lower().encode("utf-8")).hexdigest(),
+        "salt": salt,
+        "iterations": iterations,
+        "password_hash": dk.hex(),
+        "note": "Client-side gate only. This file is public on GitHub Pages and is not real security.",
+    }
+    AUTH_PATH.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    log(f"Wrote {AUTH_PATH.name} (hashed credentials; plaintext stays in GitHub secrets)")
+    return AUTH_PATH
+
+
+def auth_cli() -> int:
+    if not ADMIN_USERNAME or not ADMIN_PASSWORD:
+        log_warn("ADMIN_USERNAME / ADMIN_PASSWORD secrets not set - login gate skipped, blog stays public.")
+        return 0
+    generate_auth_file(ADMIN_USERNAME, ADMIN_PASSWORD)
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -414,4 +455,6 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    if "--auth" in sys.argv:
+        sys.exit(auth_cli())
     sys.exit(main())

@@ -27,6 +27,8 @@ RSS / Atom feed ──► script.py ──► Gemini API (filter + rewrite) ─�
 ├── feed.xml                          # generated Atom feed
 ├── .nojekyll                         # disables Jekyll so .md files stay raw
 └── .gitignore
+
+# site_auth.json is generated at build time from GitHub secrets (never committed)
 ```
 
 ## Quick start (local test)
@@ -58,18 +60,39 @@ python -m http.server 8000
 1. Create the repository
    [github.com/new](https://github.com/new) (e.g. `Automated-Niche-Micro-Blog-News-Aggregator`).
 2. Push these files to the default branch (main).
-3. Add your Gemini API key as a **repository secret**:
-   `Settings → Secrets and variables → Actions → New repository secret`
-   - Name: `GEMINI_API_KEY`
-   - Value: get a free key at https://aistudio.google.com/apikey
+3. Add your secrets under `Settings → Secrets and variables → Actions →
+   New repository secret`:
+   - `GEMINI_API_KEY` — required. Get a free key at https://aistudio.google.com/apikey
+   - `ADMIN_USERNAME` — optional (enables the login gate)
+   - `ADMIN_PASSWORD` — optional (enables the login gate)
 4. Enable GitHub Pages:
-   `Settings → Pages → Build and deployment → Source: Deploy from a branch`
-   - Branch: `main`, folder: `/ (root)`, Save.
+   `Settings → Pages → Build and deployment → Source: GitHub Actions`.
+   (The site is deployed from the workflow **artifact**, not from the branch,
+   so the hashed `site_auth.json` is never committed to your public repo.)
 5. Go to the **Actions** tab and run the **Build Blog** workflow via
    *Run workflow* to trigger the first build immediately (no need to wait for
    the cron).
 
 Your blog will then update itself daily at 06:00 UTC. 🎉
+
+## Login gate (password protection)
+
+If `ADMIN_USERNAME` and `ADMIN_PASSWORD` secrets are set, the workflow derives a
+**salted PBKDF2 hash** and writes it to `site_auth.json` at build time. The
+frontend then shows a sign-in screen and only loads posts after the credentials
+match (verified in the browser with Web Crypto). Plaintext credentials are
+never written to disk — they live only in GitHub secrets.
+
+> ⚠️ **Honest security warning.** GitHub Pages is a *static host* — there is no
+> server, so this login is a **client-side gate / deterrent, not real access
+> control**. Anyone can still read the raw posts directly from your public
+> repository, and the hash file is downloadable from the deployed site (which is
+> fine for a strong password, but it can be brute-forced if weak).
+>
+> - Good for: keeping casual visitors out of the blog UI, gating an admin view.
+> - Not good for: truly private content. For that you need a private repo and
+>   real server-side auth (e.g. Cloudflare Access / Workers, Netlify Identity),
+>   which GitHub Pages cannot provide.
 
 ## How it works
 
@@ -120,6 +143,9 @@ or inline locally).
 | `MAX_POSTS_PER_RUN`  | `2`                                      | Max posts to publish per run.                      |
 | `SITE_NAME`          | `NichePulse`                             | Used in the feed + JSON index.                     |
 | `SITE_URL`           | your Pages URL                           | Used for the `feed.xml` self link.                 |
+| `ADMIN_USERNAME`     | *(optional)*                             | Enables the login gate (must be set with a password). |
+| `ADMIN_PASSWORD`     | *(optional)*                             | Enables the login gate. Only a salted PBKDF2 hash is stored. |
+| `PBKDF2_ITERATIONS`  | `100000`                                 | PBKDF2 iterations for the password hash.           |
 
 ### Picking your niche feed
 
