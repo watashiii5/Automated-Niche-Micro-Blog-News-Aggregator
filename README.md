@@ -23,6 +23,7 @@ RSS / Atom feed ──► script.py ──► Gemini API (filter + rewrite) ─�
 ├── script.py                         # core content engine
 ├── requirements.txt                  # Python dependencies
 ├── index.html                        # frontend (Tailwind CDN, loads index.json)
+├── ads_config.js                     # AdSense config (placeholders until client set)
 ├── index.json                        # generated post index (homepage feed)
 ├── feed.xml                          # generated Atom feed
 ├── .nojekyll                         # disables Jekyll so .md files stay raw
@@ -75,6 +76,15 @@ python -m http.server 8000
 
 Your blog will then update itself daily at 06:00 UTC. 🎉
 
+## Rebuild from the page
+
+The **Rebuild** button in the header triggers the workflow instantly — no need
+to open the Actions tab. On first use it asks for a GitHub personal access
+token with **Actions: read and write** permission on this repo
+([create one here](https://github.com/settings/personal-access-tokens/new)).
+The token is stored only in your browser (`localStorage`), never committed.
+Hold **Shift** while clicking Rebuild to clear/replace the saved token.
+
 ## Login gate (password protection)
 
 If `ADMIN_USERNAME` and `ADMIN_PASSWORD` secrets are set, the workflow derives a
@@ -94,6 +104,27 @@ never written to disk — they live only in GitHub secrets.
 >   real server-side auth (e.g. Cloudflare Access / Workers, Netlify Identity),
 >   which GitHub Pages cannot provide.
 
+## Ads (Google AdSense)
+
+Two ad slots are built into `index.html`: a leaderboard (`ad-top`, above the
+post list) and a rectangle (`ad-feed`, below it). Until you configure AdSense,
+each slot renders a neutral **"Advertisement" placeholder** so the layout stays
+honest and visible.
+
+To serve real ads:
+
+1. Create an [AdSense](https://adsense.google.com/) account, add your Pages URL,
+   and get approved.
+2. In `ads_config.js`, paste your publisher ID (starts with `ca-pub-`) into
+   `window.ADSENSE.client`.
+3. In the AdSense dashboard create one ad unit per slot and paste its unit ID
+   into the matching `slot` field (`ad-top` / `ad-feed`).
+4. Commit and push — the next Actions build deploys the change.
+
+> ⚠️ AdSense only serves ads on pages Google can crawl. If the login gate is
+> enabled, gated pages may not be eligible for ads. Disable the gate, or keep
+> ads to public pages only, to comply with AdSense policies.
+
 ## How it works
 
 1. **Fetch** — `script.py` pulls the latest entries from `FEED_URL` (default:
@@ -108,8 +139,10 @@ never written to disk — they live only in GitHub secrets.
 4. **Index** — `index.json` and `feed.xml` are regenerated from every post in
    `/posts` (sorted newest-first) and committed back to the repo.
 5. **Serve** — `index.html` fetches `index.json`, renders a dark, minimal
-   Tailwind card list with live search + tag filters, and renders the full
-   markdown of each post on click (via `marked` + `DOMPurify`).
+   Tailwind card list with a **screenshot thumbnail**, source **favicon +
+   domain**, live search + tag filters, and renders the full markdown of each
+   post on click (via `marked` + `DOMPurify`). Ad slots are injected in two
+   places (see [Ads](#ads)).
 
 ### Example generated post (`posts/2026-08-12-example.md`)
 

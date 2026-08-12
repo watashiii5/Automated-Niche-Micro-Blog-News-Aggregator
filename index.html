@@ -9,6 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+  <script src="ads_config.js"></script>
 
   <style>
     .md-body { font-size: 0.95rem; line-height: 1.75; color: #d4d4d8; }
@@ -38,6 +39,7 @@
       </div>
       <div class="flex items-center gap-2 text-xs">
         <button id="signout" class="hidden rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-zinc-400 hover:border-red-500/60 hover:text-red-400 transition-colors">Sign out</button>
+        <button id="rebuild" title="Trigger the aggregator build now. Hold Shift to replace the saved token." class="rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-zinc-400 hover:border-emerald-500/60 hover:text-emerald-300 transition-colors">Rebuild</button>
         <a href="feed.xml" class="rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-zinc-400 hover:text-emerald-300 hover:border-emerald-500/60 transition-colors">RSS</a>
         <a href="index.json" class="rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-zinc-400 hover:text-emerald-300 hover:border-emerald-500/60 transition-colors">JSON</a>
       </div>
@@ -45,6 +47,7 @@
   </header>
 
   <div class="mx-auto w-full max-w-3xl px-5 pt-8">
+    <p id="rebuild-status" class="mb-4 hidden text-xs"></p>
     <input
       id="search"
       type="search"
@@ -56,8 +59,11 @@
   </div>
 
   <main class="mx-auto w-full max-w-3xl flex-1 px-5 py-8">
-    <p id="meta" class="mb-6 text-xs text-zinc-500"></p>
+    <p id="meta" class="mb-2 text-xs text-zinc-500"></p>
+    <p id="count" class="mb-6 text-xs text-zinc-600"></p>
+    <div id="ad-top" class="ad-slot"></div>
     <div id="posts" class="space-y-4"></div>
+    <div id="ad-feed" class="ad-slot"></div>
     <div id="empty" class="hidden rounded-2xl border border-dashed border-zinc-800 p-10 text-center text-sm text-zinc-500">
       No posts yet — waiting for the first automated run.
     </div>
@@ -103,6 +109,30 @@
     </div>
   </div>
 
+  <div id="token-modal" class="hidden fixed inset-0 z-50 items-center justify-center bg-black/70 p-4 backdrop-blur-sm">
+    <div class="w-full max-w-md rounded-2xl border border-zinc-800 bg-zinc-900 p-6">
+      <h2 class="text-base font-bold text-zinc-100">Trigger a rebuild</h2>
+      <p class="mt-1 text-sm leading-relaxed text-zinc-400">Runs the aggregator workflow now and publishes new posts. Paste a GitHub token with <span class="text-zinc-300">Actions: read and write</span> permission on this repo. It is stored only in this browser (localStorage), never in the repo.</p>
+      <form id="token-form" class="mt-5 space-y-4">
+        <div>
+          <label for="token-input" class="block text-xs font-medium text-zinc-400">GitHub personal access token</label>
+          <input id="token-input" name="token" type="password" autocomplete="off" required
+            class="mt-1 w-full rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder-zinc-600 outline-none focus:border-emerald-500/60 focus:ring-1 focus:ring-emerald-500/40" />
+        </div>
+        <div class="flex items-center gap-2">
+          <button type="submit"
+            class="rounded-xl bg-emerald-500 px-4 py-2.5 text-sm font-semibold text-zinc-950 transition-colors hover:bg-emerald-400">Save &amp; build</button>
+          <button type="button" id="token-cancel"
+            class="rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-2.5 text-sm text-zinc-400 hover:text-zinc-200">Cancel</button>
+        </div>
+      </form>
+      <div class="mt-4 text-[11px] leading-relaxed text-zinc-500">
+        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener" class="text-emerald-400 underline underline-offset-2 hover:text-emerald-300">Create a fine-grained token</a> → Repository access: this repo → Permissions → Actions: <span class="text-zinc-400">read and write</span>.
+        <button id="token-clear" class="hidden mt-1 text-zinc-500 underline underline-offset-2 hover:text-red-400">Clear saved token</button>
+      </div>
+    </div>
+  </div>
+
   <noscript>
     <p class="text-center text-sm text-zinc-500">This page needs JavaScript to load the post index. You can also browse <a href="posts/" class="underline">/posts</a> directly.</p>
   </noscript>
@@ -123,27 +153,74 @@
       return node;
     }
 
+    function getDomain(url) {
+      try {
+        return new URL(url).hostname.replace(/^www\./, "");
+      } catch (e) {
+        return "";
+      }
+    }
+
     function makeCard(post) {
       const card = makeEl(
         "article",
-        "group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-5 transition-colors hover:border-emerald-500/50 hover:bg-zinc-900"
+        "group overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/50 transition-colors hover:border-emerald-500/50 hover:bg-zinc-900"
       );
+      const domain = getDomain(post.source_url);
 
-      const top = makeEl("div", "flex items-center justify-between text-xs text-zinc-500");
+      if (post.source_url) {
+        const thumbWrap = makeEl(
+          "a",
+          "relative block aspect-[16/9] w-full overflow-hidden bg-zinc-900"
+        );
+        thumbWrap.href = post.source_url;
+        thumbWrap.target = "_blank";
+        thumbWrap.rel = "noopener noreferrer";
+        thumbWrap.setAttribute("aria-label", "Open source page: " + domain);
+
+        const img = makeEl(
+          "img",
+          "h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+        );
+        img.src =
+          "https://s.wordpress.com/mshots/v1/" +
+          encodeURIComponent(post.source_url) +
+          "?w=720&h=450";
+        img.loading = "lazy";
+        img.alt = "";
+        img.referrerPolicy = "no-referrer";
+        img.addEventListener("error", () => {
+          thumbWrap.classList.add(
+            "bg-gradient-to-br",
+            "from-zinc-800",
+            "to-zinc-950"
+          );
+          img.remove();
+        });
+        thumbWrap.append(img);
+        card.append(thumbWrap);
+      }
+
+      const content = makeEl("div", "p-5");
+
+      const top = makeEl("div", "flex items-center gap-2 text-xs text-zinc-500");
+      if (domain) {
+        const fav = makeEl("img", "h-4 w-4 rounded-sm");
+        fav.src = "https://www.google.com/s2/favicons?domain=" + domain + "&sz=64";
+        fav.alt = "";
+        fav.loading = "lazy";
+        fav.addEventListener("error", () => fav.remove());
+        top.append(fav);
+        top.append(makeEl("span", "font-medium text-zinc-400", domain));
+        top.append(makeEl("span", "text-zinc-700", "·"));
+      }
       const time = makeEl("time", "", post.date);
       time.dateTime = post.date;
       top.append(time);
-      if (post.source_url) {
-        const src = makeEl("a", "inline-flex items-center hover:text-emerald-400", "Source ↗");
-        src.href = post.source_url;
-        src.target = "_blank";
-        src.rel = "noopener noreferrer";
-        top.append(src);
-      }
-      card.append(top);
+      content.append(top);
 
-      card.append(makeEl("h2", "mt-3 text-lg font-semibold leading-snug text-zinc-100", post.title));
-      if (post.summary) card.append(makeEl("p", "mt-2 text-sm leading-relaxed text-zinc-400", post.summary));
+      content.append(makeEl("h2", "mt-3 text-lg font-semibold leading-snug text-zinc-100", post.title));
+      if (post.summary) content.append(makeEl("p", "mt-2 text-sm leading-relaxed text-zinc-400", post.summary));
 
       const tagsWrap = makeEl("div", "mt-4 flex flex-wrap items-center gap-2");
       (post.tags || []).forEach((t) => {
@@ -161,10 +238,23 @@
         tagsWrap.append(btn);
       });
 
+      if (post.source_url) {
+        const src = makeEl(
+          "a",
+          "ml-auto text-xs font-medium text-zinc-400 hover:text-emerald-300 hover:underline",
+          "Source ↗"
+        );
+        src.href = post.source_url;
+        src.target = "_blank";
+        src.rel = "noopener noreferrer";
+        tagsWrap.append(src);
+      }
+
       const readBtn = makeEl("button", "ml-auto text-xs font-medium text-emerald-400 hover:text-emerald-300 hover:underline", "Read full post →");
       readBtn.addEventListener("click", () => openPost(post.file));
       tagsWrap.append(readBtn);
-      card.append(tagsWrap);
+      content.append(tagsWrap);
+      card.append(content);
       return card;
     }
 
@@ -223,7 +313,9 @@
       list.forEach((p) => container.append(makeCard(p)));
 
       document.getElementById("empty").classList.toggle("hidden", list.length > 0);
-      document.getElementById("count").textContent = list.length + " shown of " + state.posts.length;
+      document.getElementById("count").textContent = q || state.tag
+        ? list.length + " shown of " + state.posts.length
+        : state.posts.length + " posts";
     }
 
     function openModal() {
@@ -249,6 +341,179 @@
         body.innerHTML = DOMPurify.sanitize(marked.parse(md));
       } catch (e) {
         body.textContent = "Sorry, could not load this post.";
+      }
+    }
+
+    // ---- Ads -------------------------------------------------------------
+    function adPlaceholder(unit) {
+      const h = unit.height || 90;
+      const w = unit.width || (h >= 90 ? 728 : 300);
+      const maxW = h >= 90 ? "728px" : "300px";
+      return (
+        '<div class="my-8 text-center">' +
+        '<p class="text-[10px] uppercase tracking-widest text-zinc-600">Advertisement</p>' +
+        '<div class="mx-auto mt-2 flex items-center justify-center rounded-xl border border-dashed border-zinc-800 bg-zinc-900/40 text-xs text-zinc-700" ' +
+        'style="height:' + h + 'px;width:min(100%,' + w + 'px);max-width:' + maxW + '">' +
+        "Ad space · " + w + "×" + h +
+        "</div></div>"
+      );
+    }
+
+    function initAds() {
+      const cfg =
+        window.ADSENSE && window.ADSENSE.client ? window.ADSENSE : null;
+      const unitCfg =
+        window.ADSENSE && window.ADSENSE.units ? window.ADSENSE.units : {};
+      const units = [];
+
+      document.querySelectorAll(".ad-slot").forEach((box) => {
+        const unit = cfg ? cfg.units[box.id] : null;
+        if (!unit || !unit.slot) {
+          box.innerHTML = adPlaceholder(unitCfg[box.id] || {});
+          return;
+        }
+        const ins = document.createElement("ins");
+        ins.className = "adsbygoogle";
+        ins.style.display = "block";
+        ins.style.width = (unit.width || 300) + "px";
+        ins.style.height = (unit.height || 250) + "px";
+        ins.dataset.adClient = cfg.client;
+        ins.dataset.adSlot = unit.slot;
+        box.innerHTML = "";
+        box.append(ins);
+        units.push(ins);
+      });
+
+      if (!cfg || units.length === 0) return;
+
+      const s = document.createElement("script");
+      s.async = true;
+      s.crossOrigin = "anonymous";
+      s.src =
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" +
+        encodeURIComponent(cfg.client);
+      s.onload = () => {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      };
+      document.head.appendChild(s);
+    }
+
+    // ---- Rebuild (trigger GitHub Actions from the page) -------------------
+    function rebuildStatus(msg, ok) {
+      const el = document.getElementById("rebuild-status");
+      el.textContent = msg;
+      el.className = "mb-4 text-xs " + (ok ? "text-emerald-400" : "text-red-400");
+      el.classList.remove("hidden");
+      clearTimeout(window.__rebuildHide);
+      window.__rebuildHide = setTimeout(() => el.classList.add("hidden"), 8000);
+    }
+
+    async function getRepoSlug() {
+      try {
+        const data = JSON.parse(await fetchText("index.json"));
+        if (data.site && data.site.url) {
+          const u = new URL(data.site.url);
+          const owner = u.hostname.split(".")[0];
+          const repo = (u.pathname.split("/").filter(Boolean) || [])[0];
+          if (owner && repo) return owner + "/" + repo;
+        }
+      } catch (e) {}
+      return "watashiii5/Automated-Niche-Micro-Blog-News-Aggregator";
+    }
+
+    function openTokenModal() {
+      const modal = document.getElementById("token-modal");
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+      document.getElementById("token-clear").classList.toggle(
+        "hidden",
+        !localStorage.getItem("np_github_token")
+      );
+      document.getElementById("token-input").focus();
+    }
+
+    function closeTokenModal() {
+      const modal = document.getElementById("token-modal");
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }
+
+    function askForToken() {
+      return new Promise((resolve) => {
+        openTokenModal();
+        const form = document.getElementById("token-form");
+        const input = document.getElementById("token-input");
+        const cancel = document.getElementById("token-cancel");
+        const clear = document.getElementById("token-clear");
+
+        const cleanup = (ok) => {
+          form.removeEventListener("submit", onSubmit);
+          cancel.removeEventListener("click", onCancel);
+          clear.removeEventListener("click", onClear);
+          closeTokenModal();
+          resolve(ok);
+        };
+        const onSubmit = (e) => {
+          e.preventDefault();
+          const val = input.value.trim();
+          if (!val) return;
+          localStorage.setItem("np_github_token", val);
+          cleanup(true);
+        };
+        const onCancel = () => cleanup(false);
+        const onClear = () => {
+          localStorage.removeItem("np_github_token");
+          clear.classList.add("hidden");
+          input.value = "";
+          input.focus();
+        };
+        form.addEventListener("submit", onSubmit);
+        cancel.addEventListener("click", onCancel);
+        clear.addEventListener("click", onClear);
+      });
+    }
+
+    async function rebuildBlog() {
+      const btn = document.getElementById("rebuild");
+      let token = localStorage.getItem("np_github_token");
+      if (!token) {
+        const ok = await askForToken();
+        if (!ok) return;
+        token = localStorage.getItem("np_github_token");
+      }
+
+      const repo = await getRepoSlug();
+      btn.disabled = true;
+      btn.textContent = "Building…";
+      try {
+        const res = await fetch(
+          "https://api.github.com/repos/" +
+            repo +
+            "/actions/workflows/build_blog.yml/dispatches",
+          {
+            method: "POST",
+            headers: {
+              Authorization: "Bearer " + token,
+              Accept: "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ ref: "main" }),
+          }
+        );
+        if (!res.ok) {
+          const body = await res.json().catch(() => ({}));
+          throw new Error(body.message || "HTTP " + res.status);
+        }
+        rebuildStatus("Build queued — new posts should appear in a few minutes.", true);
+      } catch (e) {
+        rebuildStatus(
+          "Rebuild failed: " + e.message + " (check the token has Actions: write)",
+          false
+        );
+      } finally {
+        btn.disabled = false;
+        btn.textContent = "Rebuild";
       }
     }
 
@@ -351,7 +616,7 @@
         const data = JSON.parse(await fetchText("index.json"));
         state.posts = data.posts || [];
         meta.textContent = data.generated
-          ? data.count + " posts · generated " + data.generated.replace("T", " ").replace("Z", " UTC")
+          ? "generated " + data.generated.replace("T", " ").replace("Z", " UTC")
           : "";
         document.getElementById("count").textContent = data.count + " posts";
         buildFilters();
@@ -363,6 +628,7 @@
     }
 
     async function init() {
+      initAds();
       if (await checkAuth()) {
         loadBlog();
       } else {
@@ -379,8 +645,22 @@
     document.getElementById("modal").addEventListener("click", (e) => {
       if (e.target === document.getElementById("modal")) closeModal();
     });
+    document.getElementById("rebuild").addEventListener("click", (e) => {
+      if (e.shiftKey) {
+        localStorage.removeItem("np_github_token");
+        askForToken();
+        return;
+      }
+      rebuildBlog();
+    });
+    document.getElementById("token-modal").addEventListener("click", (e) => {
+      if (e.target === document.getElementById("token-modal")) closeTokenModal();
+    });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closeModal();
+      if (e.key === "Escape") {
+        closeModal();
+        closeTokenModal();
+      }
     });
 
     document.addEventListener("DOMContentLoaded", init);
