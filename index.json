@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-12T08:24:43Z",
-  "count": 4,
+  "generated": "2026-08-13T07:27:57Z",
+  "count": 6,
   "posts": [
+    {
+      "title": "ChatGPT Desktop and Codex Desktop Arrive on Linux",
+      "date": "2026-08-13",
+      "tags": [
+        "ai",
+        "linux",
+        "openai",
+        "chatgpt"
+      ],
+      "summary": "OpenAI desktop experience reaches Linux setups with the release of ChatGPT Desktop and Codex Desktop.",
+      "source_url": "https://openai.com/codex/",
+      "source_title": "ChatGPT Desktop (Codex Desktop) for Linux",
+      "slug": "2026-08-13-chatgpt-desktop-and-codex-desktop-arrive-on-linux",
+      "file": "posts/2026-08-13-chatgpt-desktop-and-codex-desktop-arrive-on-linux.md"
+    },
+    {
+      "title": "Celld Offers Self-Hosted Distributed Durable Objects",
+      "date": "2026-08-13",
+      "tags": [
+        "selfhosted",
+        "devtools",
+        "infrastructure",
+        "backend"
+      ],
+      "summary": "Celld brings self-hosted, distributed Durable Objects to developers looking for flexible state management solutions.",
+      "source_url": "https://celld.dev/",
+      "source_title": "Celld: Self-hosted, distributed Durable Objects",
+      "slug": "2026-08-13-celld-offers-self-hosted-distributed-durable-objects",
+      "file": "posts/2026-08-13-celld-offers-self-hosted-distributed-durable-objects.md"
+    },
     {
       "title": "Spotlight on LinkedIn CringeBot 3000 Web Tool Launch",
       "date": "2026-08-12",

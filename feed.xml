@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-12T08:24:43Z</ns0:updated>
+  <ns0:updated>2026-08-13T07:27:57Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>ChatGPT Desktop and Codex Desktop Arrive on Linux</ns0:title>
+    <ns0:id>urn:uuid:ca7c57b66aae743d403a419e0c8e2961</ns0:id>
+    <ns0:link rel="alternate" href="https://openai.com/codex/" />
+    <ns0:summary>OpenAI desktop experience reaches Linux setups with the release of ChatGPT Desktop and Codex Desktop.</ns0:summary>
+    <ns0:published>2026-08-13T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-13T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Celld Offers Self-Hosted Distributed Durable Objects</ns0:title>
+    <ns0:id>urn:uuid:410187dff4128e379db2cbffaa59ecc4</ns0:id>
+    <ns0:link rel="alternate" href="https://celld.dev/" />
+    <ns0:summary>Celld brings self-hosted, distributed Durable Objects to developers looking for flexible state management solutions.</ns0:summary>
+    <ns0:published>2026-08-13T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-13T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Spotlight on LinkedIn CringeBot 3000 Web Tool Launch</ns0:title>
     <ns0:id>urn:uuid:6cf6b64abc3dba4abcdf3dea3592deb6</ns0:id>
