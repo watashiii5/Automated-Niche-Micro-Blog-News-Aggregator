@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-13T07:27:57Z</ns0:updated>
+  <ns0:updated>2026-08-14T07:26:55Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>GLM-5.3 Arrives with Frontier Coding and Cyber Capabilities</ns0:title>
+    <ns0:id>urn:uuid:80356e699b5f57c8666cc2c9e1b7c449</ns0:id>
+    <ns0:link rel="alternate" href="https://z.ai/blog/glm-5.3" />
+    <ns0:summary>GLM-5.3 is turning heads in the developer world with its focus on advanced coding skills and emergent cyber capabilities.</ns0:summary>
+    <ns0:published>2026-08-14T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-14T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Bluesky Unveils Protocol Services for Open Web Infrastructure</ns0:title>
+    <ns0:id>urn:uuid:aaa5dc568667d91d239f862137b142af</ns0:id>
+    <ns0:link rel="alternate" href="https://atproto.com/blog/introducing-bluesky-protocol-services" />
+    <ns0:summary>Bluesky's AT Protocol team has announced Bluesky Protocol Services, marking an exciting new development in open social infrastructure.</ns0:summary>
+    <ns0:published>2026-08-14T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-14T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>ChatGPT Desktop and Codex Desktop Arrive on Linux</ns0:title>
     <ns0:id>urn:uuid:ca7c57b66aae743d403a419e0c8e2961</ns0:id>

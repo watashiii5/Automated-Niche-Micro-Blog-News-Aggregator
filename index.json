@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-13T07:27:57Z",
-  "count": 6,
+  "generated": "2026-08-14T07:26:55Z",
+  "count": 8,
   "posts": [
+    {
+      "title": "GLM-5.3 Arrives with Frontier Coding and Cyber Capabilities",
+      "date": "2026-08-14",
+      "tags": [
+        "ai",
+        "coding",
+        "glm",
+        "cybersecurity"
+      ],
+      "summary": "GLM-5.3 is turning heads in the developer world with its focus on advanced coding skills and emergent cyber capabilities.",
+      "source_url": "https://z.ai/blog/glm-5.3",
+      "source_title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+      "slug": "2026-08-14-glm-53-arrives-with-frontier-coding-and-cyber-capabilities",
+      "file": "posts/2026-08-14-glm-53-arrives-with-frontier-coding-and-cyber-capabilities.md"
+    },
+    {
+      "title": "Bluesky Unveils Protocol Services for Open Web Infrastructure",
+      "date": "2026-08-14",
+      "tags": [
+        "bluesky",
+        "atproto",
+        "decentralized",
+        "networking",
+        "tech"
+      ],
+      "summary": "Bluesky's AT Protocol team has announced Bluesky Protocol Services, marking an exciting new development in open social infrastructure.",
+      "source_url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
+      "source_title": "Bluesky Protocol Services",
+      "slug": "2026-08-14-bluesky-unveils-protocol-services-for-open-web-infrastructure",
+      "file": "posts/2026-08-14-bluesky-unveils-protocol-services-for-open-web-infrastructure.md"
+    },
     {
       "title": "ChatGPT Desktop and Codex Desktop Arrive on Linux",
       "date": "2026-08-13",
