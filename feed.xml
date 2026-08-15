@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-14T07:26:55Z</ns0:updated>
+  <ns0:updated>2026-08-15T06:39:29Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>ThoughtDAG: Manage LLM Contexts with Editable Graphs</ns0:title>
+    <ns0:id>urn:uuid:e8b71dee227b403a597d26dfbcdb2e94</ns0:id>
+    <ns0:link rel="alternate" href="https://chenxiachan.github.io/thoughtdag/" />
+    <ns0:summary>Ditch linear chat histories. ThoughtDAG introduces an editable context graph for LLM conversations, giving users precise control over prompt trees.</ns0:summary>
+    <ns0:published>2026-08-15T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-15T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Automate Software QA with Deltix AI Driven Testing</ns0:title>
+    <ns0:id>urn:uuid:074f8511abd7955a232c7e2bb63191eb</ns0:id>
+    <ns0:link rel="alternate" href="https://app.deltix.ai" />
+    <ns0:summary>Deltix leverages artificial intelligence to simplify and automate your software testing workflows. Discover how this new tool helps developers maintain high code quality effortlessly.</ns0:summary>
+    <ns0:published>2026-08-15T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-15T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>GLM-5.3 Arrives with Frontier Coding and Cyber Capabilities</ns0:title>
     <ns0:id>urn:uuid:80356e699b5f57c8666cc2c9e1b7c449</ns0:id>

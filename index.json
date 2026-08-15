@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-14T07:26:55Z",
-  "count": 8,
+  "generated": "2026-08-15T06:39:29Z",
+  "count": 10,
   "posts": [
+    {
+      "title": "ThoughtDAG: Manage LLM Contexts with Editable Graphs",
+      "date": "2026-08-15",
+      "tags": [
+        "ai",
+        "llm",
+        "developer",
+        "tools"
+      ],
+      "summary": "Ditch linear chat histories. ThoughtDAG introduces an editable context graph for LLM conversations, giving users precise control over prompt trees.",
+      "source_url": "https://chenxiachan.github.io/thoughtdag/",
+      "source_title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+      "slug": "2026-08-15-thoughtdag-manage-llm-contexts-with-editable-graphs",
+      "file": "posts/2026-08-15-thoughtdag-manage-llm-contexts-with-editable-graphs.md"
+    },
+    {
+      "title": "Automate Software QA with Deltix AI Driven Testing",
+      "date": "2026-08-15",
+      "tags": [
+        "ai",
+        "testing",
+        "devops",
+        "software"
+      ],
+      "summary": "Deltix leverages artificial intelligence to simplify and automate your software testing workflows. Discover how this new tool helps developers maintain high code quality effortlessly.",
+      "source_url": "https://app.deltix.ai",
+      "source_title": "Show HN: Deltix – AI Driven Testing",
+      "slug": "2026-08-15-automate-software-qa-with-deltix-ai-driven-testing",
+      "file": "posts/2026-08-15-automate-software-qa-with-deltix-ai-driven-testing.md"
+    },
     {
       "title": "GLM-5.3 Arrives with Frontier Coding and Cyber Capabilities",
       "date": "2026-08-14",
