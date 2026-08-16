@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-15T06:39:29Z</ns0:updated>
+  <ns0:updated>2026-08-16T06:40:52Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Verify AI Coding Agent Actions Locally with ProofRun</ns0:title>
+    <ns0:id>urn:uuid:446ee69cfd3476688ed739a56a0a6775</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/yebiguo/ProofRun" />
+    <ns0:summary>ProofRun offers local verification receipts for AI coding agents, helping developers track and confirm automated code changes locally.</ns0:summary>
+    <ns0:published>2026-08-16T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-16T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>21000 Model Context Protocol Servers Left Exposed Online</ns0:title>
+    <ns0:id>urn:uuid:a3fc754f9f9453f9a4087cbccc4c0b21</ns0:id>
+    <ns0:link rel="alternate" href="https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/" />
+    <ns0:summary>The Model Context Protocol has reached a major security inflection point with over 21,000 servers exposed on the open web.</ns0:summary>
+    <ns0:published>2026-08-16T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-16T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>ThoughtDAG: Manage LLM Contexts with Editable Graphs</ns0:title>
     <ns0:id>urn:uuid:e8b71dee227b403a597d26dfbcdb2e94</ns0:id>

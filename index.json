@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-15T06:39:29Z",
-  "count": 10,
+  "generated": "2026-08-16T06:40:52Z",
+  "count": 12,
   "posts": [
+    {
+      "title": "Verify AI Coding Agent Actions Locally with ProofRun",
+      "date": "2026-08-16",
+      "tags": [
+        "ai",
+        "coding",
+        "agents",
+        "devtools"
+      ],
+      "summary": "ProofRun offers local verification receipts for AI coding agents, helping developers track and confirm automated code changes locally.",
+      "source_url": "https://github.com/yebiguo/ProofRun",
+      "source_title": "ProofRun – a local verification receipt for AI coding agents",
+      "slug": "2026-08-16-verify-ai-coding-agent-actions-locally-with-proofrun",
+      "file": "posts/2026-08-16-verify-ai-coding-agent-actions-locally-with-proofrun.md"
+    },
+    {
+      "title": "21000 Model Context Protocol Servers Left Exposed Online",
+      "date": "2026-08-16",
+      "tags": [
+        "ai",
+        "mcp",
+        "security",
+        "tech"
+      ],
+      "summary": "The Model Context Protocol has reached a major security inflection point with over 21,000 servers exposed on the open web.",
+      "source_url": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/",
+      "source_title": "21,000 MCP servers exposed: the protocol reaches a security inflection point",
+      "slug": "2026-08-16-21000-model-context-protocol-servers-left-exposed-online",
+      "file": "posts/2026-08-16-21000-model-context-protocol-servers-left-exposed-online.md"
+    },
     {
       "title": "ThoughtDAG: Manage LLM Contexts with Editable Graphs",
       "date": "2026-08-15",
