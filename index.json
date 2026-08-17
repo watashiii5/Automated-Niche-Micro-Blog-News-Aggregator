@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-16T06:40:52Z",
-  "count": 12,
+  "generated": "2026-08-17T06:57:05Z",
+  "count": 14,
   "posts": [
+    {
+      "title": "Rhombus 1.1 Is Officially Available",
+      "date": "2026-08-17",
+      "tags": [
+        "programming",
+        "rhombus",
+        "racket",
+        "developer"
+      ],
+      "summary": "Rhombus 1.1 has officially launched. Check out the latest update from the Racket programming language project.",
+      "source_url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+      "source_title": "Rhombus 1.1 is now available",
+      "slug": "2026-08-17-rhombus-11-is-officially-available",
+      "file": "posts/2026-08-17-rhombus-11-is-officially-available.md"
+    },
+    {
+      "title": "Prolly: A Content-Addressed Ordered Map Built on Prolly Trees",
+      "date": "2026-08-17",
+      "tags": [
+        "opensource",
+        "databases",
+        "data",
+        "devtools"
+      ],
+      "summary": "Discover Prolly, a new open-source project offering a content-addressed ordered map powered by prolly tree architecture.",
+      "source_url": "https://github.com/crabbuild/prolly",
+      "source_title": "Prolly: A content-addressed ordered map built on prolly trees",
+      "slug": "2026-08-17-prolly-a-content-addressed-ordered-map-built-on-prolly-trees",
+      "file": "posts/2026-08-17-prolly-a-content-addressed-ordered-map-built-on-prolly-trees.md"
+    },
     {
       "title": "Verify AI Coding Agent Actions Locally with ProofRun",
       "date": "2026-08-16",
