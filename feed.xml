@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-17T06:57:05Z</ns0:updated>
+  <ns0:updated>2026-08-18T06:45:16Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>PostmarketOS Achieves Working Main Camera on Fairphone 6</ns0:title>
+    <ns0:id>urn:uuid:85aef32aad3ae46942cb960a31f9f791</ns0:id>
+    <ns0:link rel="alternate" href="https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera" />
+    <ns0:summary>Linux on mobile hits another exciting milestone as PostmarketOS successfully gets the main camera functional on the Fairphone 6.</ns0:summary>
+    <ns0:published>2026-08-18T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-18T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>How Bluesky Automatically Adds Its Logo to Content Screenshots</ns0:title>
+    <ns0:id>urn:uuid:01be7be1a07787d3c5a782639d8b811a</ns0:id>
+    <ns0:link rel="alternate" href="https://timmarinin.net/2026/bluesky-screenshots/" />
+    <ns0:summary>A trending post delves into the technical magic behind how Bluesky renders its logo onto captured screenshots, catching the attention of the developer community.</ns0:summary>
+    <ns0:published>2026-08-18T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-18T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Rhombus 1.1 Is Officially Available</ns0:title>
     <ns0:id>urn:uuid:3fc3441e419c0ece1f71562238852149</ns0:id>

@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-17T06:57:05Z",
-  "count": 14,
+  "generated": "2026-08-18T06:45:16Z",
+  "count": 16,
   "posts": [
+    {
+      "title": "PostmarketOS Achieves Working Main Camera on Fairphone 6",
+      "date": "2026-08-18",
+      "tags": [
+        "linux",
+        "opensource",
+        "fairphone",
+        "postmarketos"
+      ],
+      "summary": "Linux on mobile hits another exciting milestone as PostmarketOS successfully gets the main camera functional on the Fairphone 6.",
+      "source_url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+      "source_title": "Fairphone 6 and PostmarketOS working main camera",
+      "slug": "2026-08-18-postmarketos-achieves-working-main-camera-on-fairphone-6",
+      "file": "posts/2026-08-18-postmarketos-achieves-working-main-camera-on-fairphone-6.md"
+    },
+    {
+      "title": "How Bluesky Automatically Adds Its Logo to Content Screenshots",
+      "date": "2026-08-18",
+      "tags": [
+        "bluesky",
+        "tech",
+        "webdev",
+        "appdev"
+      ],
+      "summary": "A trending post delves into the technical magic behind how Bluesky renders its logo onto captured screenshots, catching the attention of the developer community.",
+      "source_url": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "source_title": "How Bluesky draws its logo on screenshots",
+      "slug": "2026-08-18-how-bluesky-automatically-adds-its-logo-to-content-screenshots",
+      "file": "posts/2026-08-18-how-bluesky-automatically-adds-its-logo-to-content-screenshots.md"
+    },
     {
       "title": "Rhombus 1.1 Is Officially Available",
       "date": "2026-08-17",
