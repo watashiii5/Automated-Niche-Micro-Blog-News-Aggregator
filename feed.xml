@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-18T06:45:16Z</ns0:updated>
+  <ns0:updated>2026-08-19T06:44:02Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Palomar Launches as a Registry for Lean Verified Mathematics</ns0:title>
+    <ns0:id>urn:uuid:38a7ff24117a1d0f5c0cc754dbaa225a</ns0:id>
+    <ns0:link rel="alternate" href="https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/" />
+    <ns0:summary>Terry Tao has unveiled Palomar, a dedicated registry designed for tracking and cataloging mathematics verified with the Lean proof assistant.</ns0:summary>
+    <ns0:published>2026-08-19T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-19T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Fix Classic Sierra Game Soft-Locks with AI-Assisted Lucasartsifier</ns0:title>
+    <ns0:id>urn:uuid:8c2f3824b86ec080cf26e9990ea9ae82</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/katiahayati/lucasartsifier/" />
+    <ns0:summary>Replay retro adventure games without fear of unwinnable states. Lucasartsifier uses AI-assisted static analysis to automatically patch classic Sierra titles.</ns0:summary>
+    <ns0:published>2026-08-19T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-19T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>PostmarketOS Achieves Working Main Camera on Fairphone 6</ns0:title>
     <ns0:id>urn:uuid:85aef32aad3ae46942cb960a31f9f791</ns0:id>

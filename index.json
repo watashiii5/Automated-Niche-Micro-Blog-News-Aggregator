@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-18T06:45:16Z",
-  "count": 16,
+  "generated": "2026-08-19T06:44:02Z",
+  "count": 18,
   "posts": [
+    {
+      "title": "Palomar Launches as a Registry for Lean Verified Mathematics",
+      "date": "2026-08-19",
+      "tags": [
+        "math",
+        "lean",
+        "verification",
+        "palomar"
+      ],
+      "summary": "Terry Tao has unveiled Palomar, a dedicated registry designed for tracking and cataloging mathematics verified with the Lean proof assistant.",
+      "source_url": "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/",
+      "source_title": "Palomar: A registry of Lean verified mathematics",
+      "slug": "2026-08-19-palomar-launches-as-a-registry-for-lean-verified-mathematics",
+      "file": "posts/2026-08-19-palomar-launches-as-a-registry-for-lean-verified-mathematics.md"
+    },
+    {
+      "title": "Fix Classic Sierra Game Soft-Locks with AI-Assisted Lucasartsifier",
+      "date": "2026-08-19",
+      "tags": [
+        "ai",
+        "gaming",
+        "opensource",
+        "retro"
+      ],
+      "summary": "Replay retro adventure games without fear of unwinnable states. Lucasartsifier uses AI-assisted static analysis to automatically patch classic Sierra titles.",
+      "source_url": "https://github.com/katiahayati/lucasartsifier/",
+      "source_title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
+      "slug": "2026-08-19-fix-classic-sierra-game-soft-locks-with-ai-assisted-lucasartsifi",
+      "file": "posts/2026-08-19-fix-classic-sierra-game-soft-locks-with-ai-assisted-lucasartsifi.md"
+    },
     {
       "title": "PostmarketOS Achieves Working Main Camera on Fairphone 6",
       "date": "2026-08-18",
