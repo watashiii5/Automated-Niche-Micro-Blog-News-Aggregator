@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-19T06:44:02Z",
-  "count": 18,
+  "generated": "2026-08-20T06:47:40Z",
+  "count": 20,
   "posts": [
+    {
+      "title": "IBM XT OS Spotlight Adds Web Browser CP/M 2.2 and MS Word 1.1a",
+      "date": "2026-08-20",
+      "tags": [
+        "tech",
+        "retro",
+        "software",
+        "emulation"
+      ],
+      "summary": "Os8088.com has updated its IBM XT OS platform with exciting retro features, including a built-in web browser, MS Word 1.1a, and CP/M 2.2 running on a Z80 core.",
+      "source_url": "https://os8088.com/spotlight/",
+      "source_title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
+      "slug": "2026-08-20-ibm-xt-os-spotlight-adds-web-browser-cpm-22-and-ms-word-11a",
+      "file": "posts/2026-08-20-ibm-xt-os-spotlight-adds-web-browser-cpm-22-and-ms-word-11a.md"
+    },
+    {
+      "title": "Claude Code Developers Request AGENTS.md Support",
+      "date": "2026-08-20",
+      "tags": [
+        "ai",
+        "claude",
+        "github",
+        "devtools"
+      ],
+      "summary": "Developers are rallying behind a feature request for Anthropic's Claude Code, proposing standardized support for AGENTS.md files.",
+      "source_url": "https://github.com/anthropics/claude-code/issues/6235",
+      "source_title": "Feature Request: Support AGENTS.md",
+      "slug": "2026-08-20-claude-code-developers-request-agentsmd-support",
+      "file": "posts/2026-08-20-claude-code-developers-request-agentsmd-support.md"
+    },
     {
       "title": "Palomar Launches as a Registry for Lean Verified Mathematics",
       "date": "2026-08-19",

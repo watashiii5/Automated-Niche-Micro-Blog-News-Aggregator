@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-19T06:44:02Z</ns0:updated>
+  <ns0:updated>2026-08-20T06:47:40Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>IBM XT OS Spotlight Adds Web Browser CP/M 2.2 and MS Word 1.1a</ns0:title>
+    <ns0:id>urn:uuid:a25847f1986c32f0cefb0c6880bcd61b</ns0:id>
+    <ns0:link rel="alternate" href="https://os8088.com/spotlight/" />
+    <ns0:summary>Os8088.com has updated its IBM XT OS platform with exciting retro features, including a built-in web browser, MS Word 1.1a, and CP/M 2.2 running on a Z80 core.</ns0:summary>
+    <ns0:published>2026-08-20T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-20T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Claude Code Developers Request AGENTS.md Support</ns0:title>
+    <ns0:id>urn:uuid:df034f708a26f41548d388fc2d8a7dd4</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/anthropics/claude-code/issues/6235" />
+    <ns0:summary>Developers are rallying behind a feature request for Anthropic's Claude Code, proposing standardized support for AGENTS.md files.</ns0:summary>
+    <ns0:published>2026-08-20T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-20T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Palomar Launches as a Registry for Lean Verified Mathematics</ns0:title>
     <ns0:id>urn:uuid:38a7ff24117a1d0f5c0cc754dbaa225a</ns0:id>
