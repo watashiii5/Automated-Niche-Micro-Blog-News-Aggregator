@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-20T06:47:40Z</ns0:updated>
+  <ns0:updated>2026-08-21T06:49:51Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Why Modern Software Teams Are Changing Forever</ns0:title>
+    <ns0:id>urn:uuid:4b65e6ac04610c757af2e17a0d577501</ns0:id>
+    <ns0:link rel="alternate" href="https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/" />
+    <ns0:summary>Jacob Gold's recent essay on software team scaling is sparking huge debate across the developer community.</ns0:summary>
+    <ns0:published>2026-08-21T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-21T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>AWS Bedrock Codex Bug Triggers Surprise 10x Billing Spikes</ns0:title>
+    <ns0:id>urn:uuid:e84dde4ba8bce62eaa8a04aecc65589c</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/openai/codex/issues/37674" />
+    <ns0:summary>Developers using OpenAI's Codex on AWS Bedrock are reporting a critical bug that escalates cloud usage costs by ten times the expected amount.</ns0:summary>
+    <ns0:published>2026-08-21T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-21T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>IBM XT OS Spotlight Adds Web Browser CP/M 2.2 and MS Word 1.1a</ns0:title>
     <ns0:id>urn:uuid:a25847f1986c32f0cefb0c6880bcd61b</ns0:id>

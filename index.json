@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-20T06:47:40Z",
-  "count": 20,
+  "generated": "2026-08-21T06:49:51Z",
+  "count": 22,
   "posts": [
+    {
+      "title": "Why Modern Software Teams Are Changing Forever",
+      "date": "2026-08-21",
+      "tags": [
+        "software",
+        "engineering",
+        "tech",
+        "productivity"
+      ],
+      "summary": "Jacob Gold's recent essay on software team scaling is sparking huge debate across the developer community.",
+      "source_url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "source_title": "There's no such thing as a small software team anymore",
+      "slug": "2026-08-21-why-modern-software-teams-are-changing-forever",
+      "file": "posts/2026-08-21-why-modern-software-teams-are-changing-forever.md"
+    },
+    {
+      "title": "AWS Bedrock Codex Bug Triggers Surprise 10x Billing Spikes",
+      "date": "2026-08-21",
+      "tags": [
+        "ai",
+        "aws",
+        "codex",
+        "cloud",
+        "bugs"
+      ],
+      "summary": "Developers using OpenAI's Codex on AWS Bedrock are reporting a critical bug that escalates cloud usage costs by ten times the expected amount.",
+      "source_url": "https://github.com/openai/codex/issues/37674",
+      "source_title": "Codex on AWS bedrock bug causing 10x charges",
+      "slug": "2026-08-21-aws-bedrock-codex-bug-triggers-surprise-10x-billing-spikes",
+      "file": "posts/2026-08-21-aws-bedrock-codex-bug-triggers-surprise-10x-billing-spikes.md"
+    },
     {
       "title": "IBM XT OS Spotlight Adds Web Browser CP/M 2.2 and MS Word 1.1a",
       "date": "2026-08-20",
