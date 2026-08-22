@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-21T06:49:51Z</ns0:updated>
+  <ns0:updated>2026-08-22T06:41:06Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Why Modern Software Performance Is Sparking New Tech Debates</ns0:title>
+    <ns0:id>urn:uuid:63b8ad85875b43d09defd332eaa27a95</ns0:id>
+    <ns0:link rel="alternate" href="https://danluu.com/perf-opt/" />
+    <ns0:summary>A viral post on software speed challenges developers to rethink why applications lag despite modern hardware capabilities.</ns0:summary>
+    <ns0:published>2026-08-22T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-22T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>OpenAI Cuts GPT 5.6 Sol API Price by 20 Percent</ns0:title>
+    <ns0:id>urn:uuid:6ed02f64bf25a111969611fc629b449e</ns0:id>
+    <ns0:link rel="alternate" href="https://developers.openai.com/api/docs/models/gpt-5.6-sol" />
+    <ns0:summary>Developers get a budget boost as OpenAI slashes the API costs for the GPT 5.6 Sol model by 20 percent.</ns0:summary>
+    <ns0:published>2026-08-22T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-22T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Why Modern Software Teams Are Changing Forever</ns0:title>
     <ns0:id>urn:uuid:4b65e6ac04610c757af2e17a0d577501</ns0:id>
