@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-22T06:41:06Z",
-  "count": 24,
+  "generated": "2026-08-23T06:41:49Z",
+  "count": 26,
   "posts": [
+    {
+      "title": "Prime Intellect Unveils NanoGPT Speedrun Frontier Research",
+      "date": "2026-08-23",
+      "tags": [
+        "ai",
+        "nanogpt",
+        "research",
+        "opensource"
+      ],
+      "summary": "Prime Intellect has published new research on the NanoGPT Speedrun Frontier. Here is a quick look at this latest development in AI model training.",
+      "source_url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "source_title": "NanoGPT Speedrun Frontier",
+      "slug": "2026-08-23-prime-intellect-unveils-nanogpt-speedrun-frontier-research",
+      "file": "posts/2026-08-23-prime-intellect-unveils-nanogpt-speedrun-frontier-research.md"
+    },
+    {
+      "title": "MartyPC Brings Early PC Emulation to Modern Systems with Rust",
+      "date": "2026-08-23",
+      "tags": [
+        "rust",
+        "emulator",
+        "retro",
+        "opensource"
+      ],
+      "summary": "Experience retro computing through MartyPC, a fresh cross-platform emulator designed to recreate classic PC hardware using Rust.",
+      "source_url": "https://martypc.net/",
+      "source_title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "slug": "2026-08-23-martypc-brings-early-pc-emulation-to-modern-systems-with-rust",
+      "file": "posts/2026-08-23-martypc-brings-early-pc-emulation-to-modern-systems-with-rust.md"
+    },
     {
       "title": "Why Modern Software Performance Is Sparking New Tech Debates",
       "date": "2026-08-22",
