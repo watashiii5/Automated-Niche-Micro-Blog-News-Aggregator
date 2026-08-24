@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-23T06:41:49Z",
-  "count": 26,
+  "generated": "2026-08-24T07:02:01Z",
+  "count": 28,
   "posts": [
+    {
+      "title": "Qwen 3.8 27B Solves Complex Reverse Engineering Task in 30 Minutes",
+      "date": "2026-08-24",
+      "tags": [
+        "ai",
+        "qwen",
+        "opensource",
+        "tech"
+      ],
+      "summary": "Open-source AI continues to impress. Qwen 3.8 27B tackled a complex reverse-engineering task and wrapped it up in just 30 minutes.",
+      "source_url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "source_title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+      "slug": "2026-08-24-qwen-38-27b-solves-complex-reverse-engineering-task-in-30-minute",
+      "file": "posts/2026-08-24-qwen-38-27b-solves-complex-reverse-engineering-task-in-30-minute.md"
+    },
+    {
+      "title": "Malware Discovered in Android Automotive Head Unit Firmware",
+      "date": "2026-08-24",
+      "tags": [
+        "android",
+        "security",
+        "automotive",
+        "malware",
+        "firmware"
+      ],
+      "summary": "New security research uncovers malware embedded directly within Android-based smart car head unit firmware. Here is what you need to know about this vehicle threat.",
+      "source_url": "https://securelist.com/android-head-unit-malware/121106/",
+      "source_title": "Malware infects Android-based automotive head unit firmware",
+      "slug": "2026-08-24-malware-discovered-in-android-automotive-head-unit-firmware",
+      "file": "posts/2026-08-24-malware-discovered-in-android-automotive-head-unit-firmware.md"
+    },
     {
       "title": "Prime Intellect Unveils NanoGPT Speedrun Frontier Research",
       "date": "2026-08-23",

@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-23T06:41:49Z</ns0:updated>
+  <ns0:updated>2026-08-24T07:02:01Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Qwen 3.8 27B Solves Complex Reverse Engineering Task in 30 Minutes</ns0:title>
+    <ns0:id>urn:uuid:40310f2fb60f2a58a597fb82749da2ea</ns0:id>
+    <ns0:link rel="alternate" href="https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/" />
+    <ns0:summary>Open-source AI continues to impress. Qwen 3.8 27B tackled a complex reverse-engineering task and wrapped it up in just 30 minutes.</ns0:summary>
+    <ns0:published>2026-08-24T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-24T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Malware Discovered in Android Automotive Head Unit Firmware</ns0:title>
+    <ns0:id>urn:uuid:8f75ffe437f5d33ceb58528c2cf9a43b</ns0:id>
+    <ns0:link rel="alternate" href="https://securelist.com/android-head-unit-malware/121106/" />
+    <ns0:summary>New security research uncovers malware embedded directly within Android-based smart car head unit firmware. Here is what you need to know about this vehicle threat.</ns0:summary>
+    <ns0:published>2026-08-24T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-24T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Prime Intellect Unveils NanoGPT Speedrun Frontier Research</ns0:title>
     <ns0:id>urn:uuid:c3cba212c2b77d2f297427801ec6d2bd</ns0:id>
