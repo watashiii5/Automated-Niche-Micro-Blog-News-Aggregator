@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-24T07:02:01Z",
-  "count": 28,
+  "generated": "2026-08-25T06:49:51Z",
+  "count": 30,
   "posts": [
+    {
+      "title": "Screen Memory as Markdown: Privacy-First Local AI Context for macOS",
+      "date": "2026-08-25",
+      "tags": [
+        "macos",
+        "productivity",
+        "ai",
+        "privacy",
+        "markdown"
+      ],
+      "summary": "Track your daily Mac activity without heavy OCR or screenshots. Ambient Context saves window text into plain Markdown so AI assistants can instantly query your work history.",
+      "source_url": "https://github.com/dragthelake/ambient-context",
+      "source_title": "Show HN: Screen memory without screenshots, just text to Markdown",
+      "slug": "2026-08-25-screen-memory-as-markdown-privacy-first-local-ai-context-for-mac",
+      "file": "posts/2026-08-25-screen-memory-as-markdown-privacy-first-local-ai-context-for-mac.md"
+    },
+    {
+      "title": "Meet Headlong: A Minimal Microharness for Persistent AI Agents",
+      "date": "2026-08-25",
+      "tags": [
+        "ai",
+        "agents",
+        "devtools",
+        "automation"
+      ],
+      "summary": "Headlong introduces a lightweight microharness crafted for persistent AI agents, offering a focused framework for long-running tasks.",
+      "source_url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "source_title": "Headlong: A Microharness for Persistent Agents",
+      "slug": "2026-08-25-meet-headlong-a-minimal-microharness-for-persistent-ai-agents",
+      "file": "posts/2026-08-25-meet-headlong-a-minimal-microharness-for-persistent-ai-agents.md"
+    },
     {
       "title": "Qwen 3.8 27B Solves Complex Reverse Engineering Task in 30 Minutes",
       "date": "2026-08-24",

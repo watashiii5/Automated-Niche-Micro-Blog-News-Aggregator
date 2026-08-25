@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-24T07:02:01Z</ns0:updated>
+  <ns0:updated>2026-08-25T06:49:51Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Screen Memory as Markdown: Privacy-First Local AI Context for macOS</ns0:title>
+    <ns0:id>urn:uuid:d8ac819d0d9aae14887b2640a0982f9e</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/dragthelake/ambient-context" />
+    <ns0:summary>Track your daily Mac activity without heavy OCR or screenshots. Ambient Context saves window text into plain Markdown so AI assistants can instantly query your work history.</ns0:summary>
+    <ns0:published>2026-08-25T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-25T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Meet Headlong: A Minimal Microharness for Persistent AI Agents</ns0:title>
+    <ns0:id>urn:uuid:a4aacb2a7241d480db15a5bdb95ff8a8</ns0:id>
+    <ns0:link rel="alternate" href="https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents" />
+    <ns0:summary>Headlong introduces a lightweight microharness crafted for persistent AI agents, offering a focused framework for long-running tasks.</ns0:summary>
+    <ns0:published>2026-08-25T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-25T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Qwen 3.8 27B Solves Complex Reverse Engineering Task in 30 Minutes</ns0:title>
     <ns0:id>urn:uuid:40310f2fb60f2a58a597fb82749da2ea</ns0:id>
