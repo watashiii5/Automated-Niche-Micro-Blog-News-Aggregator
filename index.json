@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-25T06:49:51Z",
-  "count": 30,
+  "generated": "2026-08-26T06:51:21Z",
+  "count": 32,
   "posts": [
+    {
+      "title": "Exploring Queryable Executables for Developer Tooling",
+      "date": "2026-08-26",
+      "tags": [
+        "software",
+        "devtools",
+        "programming",
+        "tech"
+      ],
+      "summary": "A new post on queryable executables is catching the attention of developers looking to rethink binary interactions.",
+      "source_url": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+      "source_title": "Queryable Executables",
+      "slug": "2026-08-26-exploring-queryable-executables-for-developer-tooling",
+      "file": "posts/2026-08-26-exploring-queryable-executables-for-developer-tooling.md"
+    },
+    {
+      "title": "Agentic Context Management: Memory and Cost as Architecture",
+      "date": "2026-08-26",
+      "tags": [
+        "ai",
+        "agents",
+        "architecture",
+        "context"
+      ],
+      "summary": "Managing context in AI agents is more than a quick fix. A new paper frames memory retention and API costs as fundamental system architecture problems.",
+      "source_url": "https://arxiv.org/abs/2607.21503",
+      "source_title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "slug": "2026-08-26-agentic-context-management-memory-and-cost-as-architecture",
+      "file": "posts/2026-08-26-agentic-context-management-memory-and-cost-as-architecture.md"
+    },
     {
       "title": "Screen Memory as Markdown: Privacy-First Local AI Context for macOS",
       "date": "2026-08-25",
