@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-26T06:51:21Z</ns0:updated>
+  <ns0:updated>2026-08-27T17:24:26Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Unofficial Grok Bot Port Brings AI Desktop Access to Linux</ns0:title>
+    <ns0:id>urn:uuid:e9f8f5e781700817684bebfd3c935595</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/jakob-bu/grok-bot-linux-unofficial" />
+    <ns0:summary>Linux users can now run Grok Bot natively with a new open-source unofficial port of the official desktop application.</ns0:summary>
+    <ns0:published>2026-08-27T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-27T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Bild AI YC W25 Opens Roles for Product and AI Engineers</ns0:title>
+    <ns0:id>urn:uuid:c9a2b1813324916d78075d3b7ae62d91</ns0:id>
+    <ns0:link rel="alternate" href="https://www.bild.ai/jobs" />
+    <ns0:summary>YC W25 startup Bild AI is expanding its team with fresh openings for Product Engineers and AI Engineers.</ns0:summary>
+    <ns0:published>2026-08-27T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-27T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Exploring Queryable Executables for Developer Tooling</ns0:title>
     <ns0:id>urn:uuid:0da1e016b70492ae6f1bd04cbbf0bf3c</ns0:id>

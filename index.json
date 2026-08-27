@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-26T06:51:21Z",
-  "count": 32,
+  "generated": "2026-08-27T17:24:26Z",
+  "count": 34,
   "posts": [
+    {
+      "title": "Unofficial Grok Bot Port Brings AI Desktop Access to Linux",
+      "date": "2026-08-27",
+      "tags": [
+        "ai",
+        "linux",
+        "opensource",
+        "grok",
+        "apps"
+      ],
+      "summary": "Linux users can now run Grok Bot natively with a new open-source unofficial port of the official desktop application.",
+      "source_url": "https://github.com/jakob-bu/grok-bot-linux-unofficial",
+      "source_title": "Grok Bot for Linux: Unofficial port of the official app (open source)",
+      "slug": "2026-08-27-unofficial-grok-bot-port-brings-ai-desktop-access-to-linux",
+      "file": "posts/2026-08-27-unofficial-grok-bot-port-brings-ai-desktop-access-to-linux.md"
+    },
+    {
+      "title": "Bild AI YC W25 Opens Roles for Product and AI Engineers",
+      "date": "2026-08-27",
+      "tags": [
+        "ai",
+        "startups",
+        "careers",
+        "tech"
+      ],
+      "summary": "YC W25 startup Bild AI is expanding its team with fresh openings for Product Engineers and AI Engineers.",
+      "source_url": "https://www.bild.ai/jobs",
+      "source_title": "Bild AI (YC W25) Is Hiring Product and AI Engineers",
+      "slug": "2026-08-27-bild-ai-yc-w25-opens-roles-for-product-and-ai-engineers",
+      "file": "posts/2026-08-27-bild-ai-yc-w25-opens-roles-for-product-and-ai-engineers.md"
+    },
     {
       "title": "Exploring Queryable Executables for Developer Tooling",
       "date": "2026-08-26",
