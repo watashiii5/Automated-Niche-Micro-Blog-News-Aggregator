@@ -3,9 +3,41 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-28T18:17:45Z",
-  "count": 34,
+  "generated": "2026-08-29T12:26:16Z",
+  "count": 36,
   "posts": [
+    {
+      "title": "TurboKV Delivers Blazing Fast Rust Key-Value Storage",
+      "date": "2026-08-29",
+      "tags": [
+        "rust",
+        "database",
+        "opensource",
+        "tech",
+        "developer"
+      ],
+      "summary": "TurboKV is a newly released open-source key-value store written in Rust that focuses on extreme speed and high performance.",
+      "source_url": "https://github.com/kingroryg/turbokv",
+      "source_title": "TurboKV: Insanely fast Rust key-value store",
+      "slug": "2026-08-29-turbokv-delivers-blazing-fast-rust-key-value-storage",
+      "file": "posts/2026-08-29-turbokv-delivers-blazing-fast-rust-key-value-storage.md"
+    },
+    {
+      "title": "Samsung Showcases Processing-in-Memory Tech at Hot Chips",
+      "date": "2026-08-29",
+      "tags": [
+        "hardware",
+        "samsung",
+        "memory",
+        "semiconductors",
+        "tech"
+      ],
+      "summary": "Samsung is pushing hardware architecture forward with Processing-in-Memory design insights featured at Hot Chips.",
+      "source_url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "source_title": "Samsung's Processing-in-Memory (PIM)",
+      "slug": "2026-08-29-samsung-showcases-processing-in-memory-tech-at-hot-chips",
+      "file": "posts/2026-08-29-samsung-showcases-processing-in-memory-tech-at-hot-chips.md"
+    },
     {
       "title": "Unofficial Grok Bot Port Brings AI Desktop Access to Linux",
       "date": "2026-08-27",
