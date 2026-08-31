@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-30T11:27:00Z</ns0:updated>
+  <ns0:updated>2026-08-31T12:58:03Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Who Owns Responsibility for AI-Generated Code</ns0:title>
+    <ns0:id>urn:uuid:c31c01a04b367855e05017fe2570898e</ns0:id>
+    <ns0:link rel="alternate" href="https://martiansoftware.com/articles/ai-written-code-is-still-yours" />
+    <ns0:summary>As AI assistants generate more code, developers face pressing questions about ownership and ultimate accountability for their software.</ns0:summary>
+    <ns0:published>2026-08-31T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-31T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Scaling AI Trust Across 100 Billion Transactions</ns0:title>
+    <ns0:id>urn:uuid:35c3c96cee0af56dc89098fd77a92d44</ns0:id>
+    <ns0:link rel="alternate" href="https://engineering.moniepoint.com/what-i-learned-about-ai-trust-from-reconciling" />
+    <ns0:summary>Moniepoint shares critical engineering lessons on building reliable trust in AI systems while processing over 100 billion transactions.</ns0:summary>
+    <ns0:published>2026-08-31T00:00:00Z</ns0:published>
+    <ns0:updated>2026-08-31T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Qubes OS Security Alert: Flaw Found in VM File Copy System</ns0:title>
     <ns0:id>urn:uuid:e0e1af8e3ef2a31fb356fe4bce524ceb</ns0:id>

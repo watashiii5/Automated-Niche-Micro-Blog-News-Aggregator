@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-30T11:27:00Z",
-  "count": 38,
+  "generated": "2026-08-31T12:58:03Z",
+  "count": 40,
   "posts": [
+    {
+      "title": "Who Owns Responsibility for AI-Generated Code",
+      "date": "2026-08-31",
+      "tags": [
+        "ai",
+        "coding",
+        "tech",
+        "software"
+      ],
+      "summary": "As AI assistants generate more code, developers face pressing questions about ownership and ultimate accountability for their software.",
+      "source_url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "source_title": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+      "slug": "2026-08-31-who-owns-responsibility-for-ai-generated-code",
+      "file": "posts/2026-08-31-who-owns-responsibility-for-ai-generated-code.md"
+    },
+    {
+      "title": "Scaling AI Trust Across 100 Billion Transactions",
+      "date": "2026-08-31",
+      "tags": [
+        "ai",
+        "fintech",
+        "engineering",
+        "trust"
+      ],
+      "summary": "Moniepoint shares critical engineering lessons on building reliable trust in AI systems while processing over 100 billion transactions.",
+      "source_url": "https://engineering.moniepoint.com/what-i-learned-about-ai-trust-from-reconciling",
+      "source_title": "What I Learned About AI Trust from Reconciling over 100B Transactions",
+      "slug": "2026-08-31-scaling-ai-trust-across-100-billion-transactions",
+      "file": "posts/2026-08-31-scaling-ai-trust-across-100-billion-transactions.md"
+    },
     {
       "title": "Qubes OS Security Alert: Flaw Found in VM File Copy System",
       "date": "2026-08-30",
