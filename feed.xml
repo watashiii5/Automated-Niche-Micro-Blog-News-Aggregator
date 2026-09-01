@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-08-31T12:58:03Z</ns0:updated>
+  <ns0:updated>2026-09-01T11:15:11Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Scoring 44 Percent on ARC-AGI-1 for Under One Dollar</ns0:title>
+    <ns0:id>urn:uuid:f2120372cc16ed868ac8a4626b4f0815</ns0:id>
+    <ns0:link rel="alternate" href="https://mvakde.github.io/blog/44-on-arc-1/" />
+    <ns0:summary>A new experiment demonstrates hitting a 44% score on the ARC-AGI-1 benchmark while spending just 67 cents.</ns0:summary>
+    <ns0:published>2026-09-01T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-01T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Google Play Cracks Down on AnkiDroid Open Collective Link</ns0:title>
+    <ns0:id>urn:uuid:1dc26684ed901ddd1e28f5310c46f118</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/ankidroid/Anki-Android/issues/21656" />
+    <ns0:summary>Google Play policy enforcement is forcing the open-source app AnkiDroid to remove its direct Open Collective donation link.</ns0:summary>
+    <ns0:published>2026-09-01T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-01T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Who Owns Responsibility for AI-Generated Code</ns0:title>
     <ns0:id>urn:uuid:c31c01a04b367855e05017fe2570898e</ns0:id>

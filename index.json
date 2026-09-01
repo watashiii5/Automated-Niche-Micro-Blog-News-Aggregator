@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-08-31T12:58:03Z",
-  "count": 40,
+  "generated": "2026-09-01T11:15:11Z",
+  "count": 42,
   "posts": [
+    {
+      "title": "Scoring 44 Percent on ARC-AGI-1 for Under One Dollar",
+      "date": "2026-09-01",
+      "tags": [
+        "ai",
+        "benchmark",
+        "agi",
+        "tech"
+      ],
+      "summary": "A new experiment demonstrates hitting a 44% score on the ARC-AGI-1 benchmark while spending just 67 cents.",
+      "source_url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "source_title": "44% on ARC-AGI-1 in 67 cents",
+      "slug": "2026-09-01-scoring-44-percent-on-arc-agi-1-for-under-one-dollar",
+      "file": "posts/2026-09-01-scoring-44-percent-on-arc-agi-1-for-under-one-dollar.md"
+    },
+    {
+      "title": "Google Play Cracks Down on AnkiDroid Open Collective Link",
+      "date": "2026-09-01",
+      "tags": [
+        "ankidroid",
+        "opensource",
+        "android",
+        "googleplay"
+      ],
+      "summary": "Google Play policy enforcement is forcing the open-source app AnkiDroid to remove its direct Open Collective donation link.",
+      "source_url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "source_title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "slug": "2026-09-01-google-play-cracks-down-on-ankidroid-open-collective-link",
+      "file": "posts/2026-09-01-google-play-cracks-down-on-ankidroid-open-collective-link.md"
+    },
     {
       "title": "Who Owns Responsibility for AI-Generated Code",
       "date": "2026-08-31",
