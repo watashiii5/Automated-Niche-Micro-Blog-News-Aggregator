@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-01T11:15:11Z",
-  "count": 42,
+  "generated": "2026-09-02T10:48:24Z",
+  "count": 44,
   "posts": [
+    {
+      "title": "Neural Networks Reveal Emergent Symbolic Structures",
+      "date": "2026-09-02",
+      "tags": [
+        "ai",
+        "research",
+        "neuralnetworks",
+        "tech"
+      ],
+      "summary": "New research explores how artificial neural networks develop emergent symbolic structures, sparking fresh debate in the AI community.",
+      "source_url": "https://arxiv.org/abs/2608.29530",
+      "source_title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+      "slug": "2026-09-02-neural-networks-reveal-emergent-symbolic-structures",
+      "file": "posts/2026-09-02-neural-networks-reveal-emergent-symbolic-structures.md"
+    },
+    {
+      "title": "Hardware Hacking in the Browser with WebFPGA",
+      "date": "2026-09-02",
+      "tags": [
+        "hardware",
+        "fpga",
+        "web",
+        "developer"
+      ],
+      "summary": "WebFPGA is catching the attention of developers by bringing FPGA hardware tools straight to the web.",
+      "source_url": "https://webfpga.io/",
+      "source_title": "WebFPGA",
+      "slug": "2026-09-02-hardware-hacking-in-the-browser-with-webfpga",
+      "file": "posts/2026-09-02-hardware-hacking-in-the-browser-with-webfpga.md"
+    },
     {
       "title": "Scoring 44 Percent on ARC-AGI-1 for Under One Dollar",
       "date": "2026-09-01",
