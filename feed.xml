@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-02T10:48:24Z</ns0:updated>
+  <ns0:updated>2026-09-03T10:52:09Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Why Robotics Is So Hard: 14 Core Engineering Challenges</ns0:title>
+    <ns0:id>urn:uuid:ee4012dec8cddbaa10c622fe387b3069</ns0:id>
+    <ns0:link rel="alternate" href="https://secondthoughts.ai/p/14-reasons-robotics-is-hard" />
+    <ns0:summary>Building real-world robots is notoriously tough. A recent post outlines 14 key reasons why robotics engineering remains a major hurdle.</ns0:summary>
+    <ns0:published>2026-09-03T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-03T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>PhiloLabs Releases Fable 5.1 for World Modeling</ns0:title>
+    <ns0:id>urn:uuid:84cd47c9effb40c75236c62d453435bf</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/PhiloLabs/fable51-worlds" />
+    <ns0:summary>PhiloLabs has shared Fable 5.1 World Modeling on GitHub, offering new open-source code for AI world simulation.</ns0:summary>
+    <ns0:published>2026-09-03T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-03T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Neural Networks Reveal Emergent Symbolic Structures</ns0:title>
     <ns0:id>urn:uuid:a7ee4c3a8083c8084cf190c0cf312dc8</ns0:id>
