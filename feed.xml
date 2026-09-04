@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-03T10:52:09Z</ns0:updated>
+  <ns0:updated>2026-09-04T10:47:58Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Tracking Carbon Aware Electricity Rates Across 38 Power Grids</ns0:title>
+    <ns0:id>urn:uuid:4459aa866133e44e0fb59e6af9158642</ns0:id>
+    <ns0:link rel="alternate" href="https://carbonawarepricing.com/" />
+    <ns0:summary>A new site tracks carbon-aware electricity pricing daily across 38 regional power grids. Discover how clean energy metrics are measured across locations.</ns0:summary>
+    <ns0:published>2026-09-04T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-04T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Exploring Two Decades of Raspberry Pi History</ns0:title>
+    <ns0:id>urn:uuid:652bdead60688b559a8795bf0338fbd8</ns0:id>
+    <ns0:link rel="alternate" href="https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline" />
+    <ns0:summary>Trace the evolution of single-board computing with a new interactive timeline covering Raspberry Pi from 2006 through 2026.</ns0:summary>
+    <ns0:published>2026-09-04T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-04T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Why Robotics Is So Hard: 14 Core Engineering Challenges</ns0:title>
     <ns0:id>urn:uuid:ee4012dec8cddbaa10c622fe387b3069</ns0:id>

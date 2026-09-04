@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-03T10:52:09Z",
-  "count": 46,
+  "generated": "2026-09-04T10:47:58Z",
+  "count": 48,
   "posts": [
+    {
+      "title": "Tracking Carbon Aware Electricity Rates Across 38 Power Grids",
+      "date": "2026-09-04",
+      "tags": [
+        "cleantech",
+        "energy",
+        "sustainability",
+        "data"
+      ],
+      "summary": "A new site tracks carbon-aware electricity pricing daily across 38 regional power grids. Discover how clean energy metrics are measured across locations.",
+      "source_url": "https://carbonawarepricing.com/",
+      "source_title": "Carbon-aware electricity pricing, measured daily on 38 grids",
+      "slug": "2026-09-04-tracking-carbon-aware-electricity-rates-across-38-power-grids",
+      "file": "posts/2026-09-04-tracking-carbon-aware-electricity-rates-across-38-power-grids.md"
+    },
+    {
+      "title": "Exploring Two Decades of Raspberry Pi History",
+      "date": "2026-09-04",
+      "tags": [
+        "hardware",
+        "raspberrypi",
+        "tech",
+        "timeline"
+      ],
+      "summary": "Trace the evolution of single-board computing with a new interactive timeline covering Raspberry Pi from 2006 through 2026.",
+      "source_url": "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline",
+      "source_title": "The Raspberry Pi Interactive Timeline · 2006–2026",
+      "slug": "2026-09-04-exploring-two-decades-of-raspberry-pi-history",
+      "file": "posts/2026-09-04-exploring-two-decades-of-raspberry-pi-history.md"
+    },
     {
       "title": "Why Robotics Is So Hard: 14 Core Engineering Challenges",
       "date": "2026-09-03",
