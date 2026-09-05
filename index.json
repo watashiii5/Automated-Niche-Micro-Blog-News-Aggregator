@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-04T10:47:58Z",
-  "count": 48,
+  "generated": "2026-09-05T10:05:10Z",
+  "count": 50,
   "posts": [
+    {
+      "title": "Sovereign Git Hosting Stays Entirely Within Europe",
+      "date": "2026-09-05",
+      "tags": [
+        "git",
+        "europe",
+        "hosting",
+        "developer"
+      ],
+      "summary": "Looking for code infrastructure with strict data sovereignty? A new Git hosting service ensures your software repositories never leave Europe.",
+      "source_url": "https://pushin.eu",
+      "source_title": "Git hosting that never leaves Europe",
+      "slug": "2026-09-05-sovereign-git-hosting-stays-entirely-within-europe",
+      "file": "posts/2026-09-05-sovereign-git-hosting-stays-entirely-within-europe.md"
+    },
+    {
+      "title": "Benchmarking GPT-6 Astra for AI Code Reviews",
+      "date": "2026-09-05",
+      "tags": [
+        "ai",
+        "coding",
+        "benchmarks",
+        "devtech"
+      ],
+      "summary": "CodeRabbit benchmarked GPT-6 Astra to see how it handles automated code reviews across speed gains, data privacy, and overall costs.",
+      "source_url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+      "source_title": "GPT-6 Astra in code review: Gains, privacy, and cost",
+      "slug": "2026-09-05-benchmarking-gpt-6-astra-for-ai-code-reviews",
+      "file": "posts/2026-09-05-benchmarking-gpt-6-astra-for-ai-code-reviews.md"
+    },
     {
       "title": "Tracking Carbon Aware Electricity Rates Across 38 Power Grids",
       "date": "2026-09-04",

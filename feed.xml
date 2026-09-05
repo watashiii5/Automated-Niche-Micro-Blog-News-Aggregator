@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-04T10:47:58Z</ns0:updated>
+  <ns0:updated>2026-09-05T10:05:10Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Sovereign Git Hosting Stays Entirely Within Europe</ns0:title>
+    <ns0:id>urn:uuid:a15343630dd081c7ec8c5c4997e940d2</ns0:id>
+    <ns0:link rel="alternate" href="https://pushin.eu" />
+    <ns0:summary>Looking for code infrastructure with strict data sovereignty? A new Git hosting service ensures your software repositories never leave Europe.</ns0:summary>
+    <ns0:published>2026-09-05T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-05T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Benchmarking GPT-6 Astra for AI Code Reviews</ns0:title>
+    <ns0:id>urn:uuid:2f3aaf120e83193d3a1787fa08533370</ns0:id>
+    <ns0:link rel="alternate" href="https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation" />
+    <ns0:summary>CodeRabbit benchmarked GPT-6 Astra to see how it handles automated code reviews across speed gains, data privacy, and overall costs.</ns0:summary>
+    <ns0:published>2026-09-05T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-05T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Tracking Carbon Aware Electricity Rates Across 38 Power Grids</ns0:title>
     <ns0:id>urn:uuid:4459aa866133e44e0fb59e6af9158642</ns0:id>
