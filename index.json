@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-05T10:05:10Z",
-  "count": 50,
+  "generated": "2026-09-06T10:26:20Z",
+  "count": 52,
   "posts": [
+    {
+      "title": "Play GTA Vice City Directly in Your Web Browser",
+      "date": "2026-09-06",
+      "tags": [
+        "gaming",
+        "browser",
+        "retro",
+        "tech"
+      ],
+      "summary": "Experience retro open-world action directly in your browser. Grand Theft Auto: Vice City is now accessible on the web without any downloads.",
+      "source_url": "https://quenq.com/apps/vice-city-online/",
+      "source_title": "Play GTA Vice City in the Browser",
+      "slug": "2026-09-06-play-gta-vice-city-directly-in-your-web-browser",
+      "file": "posts/2026-09-06-play-gta-vice-city-directly-in-your-web-browser.md"
+    },
+    {
+      "title": "Isar Aerospace Reaches Orbit and Deploys Payloads on Second Flight",
+      "date": "2026-09-06",
+      "tags": [
+        "spacetech",
+        "aerospace",
+        "hardware",
+        "europe"
+      ],
+      "summary": "European startup Isar Aerospace has successfully reached orbit and deployed payloads during its second mission, marking a big win for commercial spaceflight.",
+      "source_url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+      "source_title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "slug": "2026-09-06-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flig",
+      "file": "posts/2026-09-06-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flig.md"
+    },
     {
       "title": "Sovereign Git Hosting Stays Entirely Within Europe",
       "date": "2026-09-05",

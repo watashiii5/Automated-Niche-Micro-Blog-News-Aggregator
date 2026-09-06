@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-05T10:05:10Z</ns0:updated>
+  <ns0:updated>2026-09-06T10:26:20Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Play GTA Vice City Directly in Your Web Browser</ns0:title>
+    <ns0:id>urn:uuid:2e960f8f1e86464c5d163fc74a39b752</ns0:id>
+    <ns0:link rel="alternate" href="https://quenq.com/apps/vice-city-online/" />
+    <ns0:summary>Experience retro open-world action directly in your browser. Grand Theft Auto: Vice City is now accessible on the web without any downloads.</ns0:summary>
+    <ns0:published>2026-09-06T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-06T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Isar Aerospace Reaches Orbit and Deploys Payloads on Second Flight</ns0:title>
+    <ns0:id>urn:uuid:52b79c43354d752fbee8ef5877815293</ns0:id>
+    <ns0:link rel="alternate" href="https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight" />
+    <ns0:summary>European startup Isar Aerospace has successfully reached orbit and deployed payloads during its second mission, marking a big win for commercial spaceflight.</ns0:summary>
+    <ns0:published>2026-09-06T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-06T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Sovereign Git Hosting Stays Entirely Within Europe</ns0:title>
     <ns0:id>urn:uuid:a15343630dd081c7ec8c5c4997e940d2</ns0:id>
