@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-06T10:26:20Z</ns0:updated>
+  <ns0:updated>2026-09-07T11:48:32Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Faster Inference: Speculative Decoding Arrives in vLLM for AMD GPUs</ns0:title>
+    <ns0:id>urn:uuid:e3e9bef7be4295031f6ad8036bf19888</ns0:id>
+    <ns0:link rel="alternate" href="https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus" />
+    <ns0:summary>vLLM is expanding its high-performance LLM serving capabilities on AMD hardware by bringing speculative decoding to AMD GPUs.</ns0:summary>
+    <ns0:published>2026-09-07T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-07T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>CodePen 2.0 Live Preview Transmits Unsaved Editor Data</ns0:title>
+    <ns0:id>urn:uuid:6ccb03812c83e45fe530ea627f163cc6</ns0:id>
+    <ns0:link rel="alternate" href="https://news.ycombinator.com/item?id=49596976" />
+    <ns0:summary>A recent community test reveals CodePen 2.0 streams unsaved editor text to preview servers within seconds, raising privacy concerns for developers.</ns0:summary>
+    <ns0:published>2026-09-07T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-07T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Play GTA Vice City Directly in Your Web Browser</ns0:title>
     <ns0:id>urn:uuid:2e960f8f1e86464c5d163fc74a39b752</ns0:id>

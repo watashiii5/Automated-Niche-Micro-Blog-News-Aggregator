@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-06T10:26:20Z",
-  "count": 52,
+  "generated": "2026-09-07T11:48:32Z",
+  "count": 54,
   "posts": [
+    {
+      "title": "Faster Inference: Speculative Decoding Arrives in vLLM for AMD GPUs",
+      "date": "2026-09-07",
+      "tags": [
+        "vllm",
+        "amd",
+        "ai",
+        "llm",
+        "opensource"
+      ],
+      "summary": "vLLM is expanding its high-performance LLM serving capabilities on AMD hardware by bringing speculative decoding to AMD GPUs.",
+      "source_url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+      "source_title": "Speculative Decoding in vLLM on AMD GPUs",
+      "slug": "2026-09-07-faster-inference-speculative-decoding-arrives-in-vllm-for-amd-gp",
+      "file": "posts/2026-09-07-faster-inference-speculative-decoding-arrives-in-vllm-for-amd-gp.md"
+    },
+    {
+      "title": "CodePen 2.0 Live Preview Transmits Unsaved Editor Data",
+      "date": "2026-09-07",
+      "tags": [
+        "codepen",
+        "security",
+        "webdev",
+        "privacy"
+      ],
+      "summary": "A recent community test reveals CodePen 2.0 streams unsaved editor text to preview servers within seconds, raising privacy concerns for developers.",
+      "source_url": "https://news.ycombinator.com/item?id=49596976",
+      "source_title": "Apparently CodePen 2.0 sends data to their servers as you type",
+      "slug": "2026-09-07-codepen-20-live-preview-transmits-unsaved-editor-data",
+      "file": "posts/2026-09-07-codepen-20-live-preview-transmits-unsaved-editor-data.md"
+    },
     {
       "title": "Play GTA Vice City Directly in Your Web Browser",
       "date": "2026-09-06",
