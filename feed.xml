@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-07T11:48:32Z</ns0:updated>
+  <ns0:updated>2026-09-08T10:45:58Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Multi Agent LLM Trading Framework Hits GitHub</ns0:title>
+    <ns0:id>urn:uuid:547209b3808910e2159c5f9651e6b1a3</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/TauricResearch/TradingAgents" />
+    <ns0:summary>TauricResearch released TradingAgents, an open-source multi-agent LLM framework designed for financial trading.</ns0:summary>
+    <ns0:published>2026-09-08T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-08T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Cloudflare Dominates European CDN Market with 90% Adoption</ns0:title>
+    <ns0:id>urn:uuid:02e841cf3943fd75e104867995bf2bb0</ns0:id>
+    <ns0:link rel="alternate" href="https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten" />
+    <ns0:summary>Nearly 90% of European companies using content delivery networks rely on Cloudflare, revealing massive web infrastructure concentration.</ns0:summary>
+    <ns0:published>2026-09-08T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-08T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Faster Inference: Speculative Decoding Arrives in vLLM for AMD GPUs</ns0:title>
     <ns0:id>urn:uuid:e3e9bef7be4295031f6ad8036bf19888</ns0:id>

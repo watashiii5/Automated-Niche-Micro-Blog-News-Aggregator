@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-07T11:48:32Z",
-  "count": 54,
+  "generated": "2026-09-08T10:45:58Z",
+  "count": 56,
   "posts": [
+    {
+      "title": "Multi Agent LLM Trading Framework Hits GitHub",
+      "date": "2026-09-08",
+      "tags": [
+        "ai",
+        "trading",
+        "agents",
+        "opensource"
+      ],
+      "summary": "TauricResearch released TradingAgents, an open-source multi-agent LLM framework designed for financial trading.",
+      "source_url": "https://github.com/TauricResearch/TradingAgents",
+      "source_title": "Multi-Agents LLM Financial Trading Framework",
+      "slug": "2026-09-08-multi-agent-llm-trading-framework-hits-github",
+      "file": "posts/2026-09-08-multi-agent-llm-trading-framework-hits-github.md"
+    },
+    {
+      "title": "Cloudflare Dominates European CDN Market with 90% Adoption",
+      "date": "2026-09-08",
+      "tags": [
+        "cloudflare",
+        "cdn",
+        "europe",
+        "tech",
+        "infrastructure"
+      ],
+      "summary": "Nearly 90% of European companies using content delivery networks rely on Cloudflare, revealing massive web infrastructure concentration.",
+      "source_url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
+      "source_title": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
+      "slug": "2026-09-08-cloudflare-dominates-european-cdn-market-with-90-adoption",
+      "file": "posts/2026-09-08-cloudflare-dominates-european-cdn-market-with-90-adoption.md"
+    },
     {
       "title": "Faster Inference: Speculative Decoding Arrives in vLLM for AMD GPUs",
       "date": "2026-09-07",
