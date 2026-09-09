@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-08T10:45:58Z",
-  "count": 56,
+  "generated": "2026-09-09T10:54:53Z",
+  "count": 58,
   "posts": [
+    {
+      "title": "Ultra Lightweight WebGPU Syntax Highlighter Runs at Just 27KB",
+      "date": "2026-09-09",
+      "tags": [
+        "webgpu",
+        "devtools",
+        "coding",
+        "performance"
+      ],
+      "summary": "Developers are pushing browser limits with a 27.5KB syntax highlighter powered by WebGPU. It delivers language-agnostic code processing right on your graphics card.",
+      "source_url": "https://gpu-lexer.vercel.app/",
+      "source_title": "27.5KB language-agnostic WebGPU syntax highlighter",
+      "slug": "2026-09-09-ultra-lightweight-webgpu-syntax-highlighter-runs-at-just-27kb",
+      "file": "posts/2026-09-09-ultra-lightweight-webgpu-syntax-highlighter-runs-at-just-27kb.md"
+    },
+    {
+      "title": "GPT-5.6 Sol Advances Scientific Research in Quantum Labs",
+      "date": "2026-09-09",
+      "tags": [
+        "ai",
+        "openai",
+        "quantum",
+        "research"
+      ],
+      "summary": "OpenAI's latest model is stepping up to help run quantum computing experiments, bridging cutting-edge AI with advanced physics.",
+      "source_url": "https://openai.com/index/codex-quantum-computing-experiments/",
+      "source_title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+      "slug": "2026-09-09-gpt-56-sol-advances-scientific-research-in-quantum-labs",
+      "file": "posts/2026-09-09-gpt-56-sol-advances-scientific-research-in-quantum-labs.md"
+    },
     {
       "title": "Multi Agent LLM Trading Framework Hits GitHub",
       "date": "2026-09-08",

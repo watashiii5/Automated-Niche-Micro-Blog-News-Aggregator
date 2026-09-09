@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-08T10:45:58Z</ns0:updated>
+  <ns0:updated>2026-09-09T10:54:54Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Ultra Lightweight WebGPU Syntax Highlighter Runs at Just 27KB</ns0:title>
+    <ns0:id>urn:uuid:ce1ea7a8adccb23e4c43aa36f791506b</ns0:id>
+    <ns0:link rel="alternate" href="https://gpu-lexer.vercel.app/" />
+    <ns0:summary>Developers are pushing browser limits with a 27.5KB syntax highlighter powered by WebGPU. It delivers language-agnostic code processing right on your graphics card.</ns0:summary>
+    <ns0:published>2026-09-09T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-09T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>GPT-5.6 Sol Advances Scientific Research in Quantum Labs</ns0:title>
+    <ns0:id>urn:uuid:01ea976dca50799783e0e151541bcda2</ns0:id>
+    <ns0:link rel="alternate" href="https://openai.com/index/codex-quantum-computing-experiments/" />
+    <ns0:summary>OpenAI's latest model is stepping up to help run quantum computing experiments, bridging cutting-edge AI with advanced physics.</ns0:summary>
+    <ns0:published>2026-09-09T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-09T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Multi Agent LLM Trading Framework Hits GitHub</ns0:title>
     <ns0:id>urn:uuid:547209b3808910e2159c5f9651e6b1a3</ns0:id>
