@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-09T10:54:53Z",
-  "count": 58,
+  "generated": "2026-09-10T10:49:29Z",
+  "count": 60,
   "posts": [
+    {
+      "title": "Training a 3.8B Language Model for Under $1000",
+      "date": "2026-09-10",
+      "tags": [
+        "ai",
+        "llm",
+        "opensource",
+        "tech"
+      ],
+      "summary": "Discover how a developer trained a 3.8B parameter AI model to a 0.384 CORE score on a tight budget of just $998.",
+      "source_url": "https://hugovergnes.github.io/little-lm-3-8b/",
+      "source_title": "Training a 3.8B LLM to 0.384 CORE for $998",
+      "slug": "2026-09-10-training-a-38b-language-model-for-under-1000",
+      "file": "posts/2026-09-10-training-a-38b-language-model-for-under-1000.md"
+    },
+    {
+      "title": "DeepSeek Releases V4.1 Flash Model on Hugging Face",
+      "date": "2026-09-10",
+      "tags": [
+        "ai",
+        "deepseek",
+        "opensource",
+        "llm"
+      ],
+      "summary": "DeepSeek has unveiled its latest model release, DeepSeek V4.1 Flash. The new open repository is now live and accessible on Hugging Face.",
+      "source_url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "source_title": "DeepSeek v4.1 Flash",
+      "slug": "2026-09-10-deepseek-releases-v41-flash-model-on-hugging-face",
+      "file": "posts/2026-09-10-deepseek-releases-v41-flash-model-on-hugging-face.md"
+    },
     {
       "title": "Ultra Lightweight WebGPU Syntax Highlighter Runs at Just 27KB",
       "date": "2026-09-09",
