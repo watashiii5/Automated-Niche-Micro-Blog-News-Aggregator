@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-10T10:49:29Z",
-  "count": 60,
+  "generated": "2026-09-11T10:45:29Z",
+  "count": 62,
   "posts": [
+    {
+      "title": "OpenAI Releases GPT-Live-1 in the API for Developers",
+      "date": "2026-09-11",
+      "tags": [
+        "openai",
+        "api",
+        "gpt",
+        "ai"
+      ],
+      "summary": "OpenAI has officially launched GPT-Live-1 in their API. Developers can now tap into this new model capability to power custom applications.",
+      "source_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "source_title": "GPT‑Live‑1 in the API",
+      "slug": "2026-09-11-openai-releases-gpt-live-1-in-the-api-for-developers",
+      "file": "posts/2026-09-11-openai-releases-gpt-live-1-in-the-api-for-developers.md"
+    },
+    {
+      "title": "Astra for Coding Sparks New Debate in Developer Community",
+      "date": "2026-09-11",
+      "tags": [
+        "ai",
+        "coding",
+        "software",
+        "tech"
+      ],
+      "summary": "A recent post on Astra for coding has sparked widespread discussion among developers online, questioning recycled trends in software tooling.",
+      "source_url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "source_title": "Astra for Coding: Why Are We Doing This Again?",
+      "slug": "2026-09-11-astra-for-coding-sparks-new-debate-in-developer-community",
+      "file": "posts/2026-09-11-astra-for-coding-sparks-new-debate-in-developer-community.md"
+    },
     {
       "title": "Training a 3.8B Language Model for Under $1000",
       "date": "2026-09-10",

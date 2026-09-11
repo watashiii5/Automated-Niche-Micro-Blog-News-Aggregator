@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-10T10:49:29Z</ns0:updated>
+  <ns0:updated>2026-09-11T10:45:29Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>OpenAI Releases GPT-Live-1 in the API for Developers</ns0:title>
+    <ns0:id>urn:uuid:af0a6c69392495ce90eff22f3c2c6da6</ns0:id>
+    <ns0:link rel="alternate" href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" />
+    <ns0:summary>OpenAI has officially launched GPT-Live-1 in their API. Developers can now tap into this new model capability to power custom applications.</ns0:summary>
+    <ns0:published>2026-09-11T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-11T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Astra for Coding Sparks New Debate in Developer Community</ns0:title>
+    <ns0:id>urn:uuid:d0e657693c4dfcdf5aa4318d0fdc94a0</ns0:id>
+    <ns0:link rel="alternate" href="https://lucumr.pocoo.org/2026/9/7/astra-why/" />
+    <ns0:summary>A recent post on Astra for coding has sparked widespread discussion among developers online, questioning recycled trends in software tooling.</ns0:summary>
+    <ns0:published>2026-09-11T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-11T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Training a 3.8B Language Model for Under $1000</ns0:title>
     <ns0:id>urn:uuid:1dea40fc90ff8591c9749fdfc995c1bf</ns0:id>
