@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-11T10:45:29Z</ns0:updated>
+  <ns0:updated>2026-09-12T10:14:05Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Inside Apple Neural Engine: Reverse Engineering Silicon</ns0:title>
+    <ns0:id>urn:uuid:c65d16dc16596616cc94f0d38acd18fc</ns0:id>
+    <ns0:link rel="alternate" href="https://eiln.github.io/posts/ane.html" />
+    <ns0:summary>A deep technical breakdown uncovers how Apple's Neural Engine operates under the hood. Learn how researchers are reverse-engineering Apple silicon to better understand AI acceleration.</ns0:summary>
+    <ns0:published>2026-09-12T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-12T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Explore Early Web History with Usenet Rewind Archive Search Engine</ns0:title>
+    <ns0:id>urn:uuid:25ca6c7af893f27b008882592d923aea</ns0:id>
+    <ns0:link rel="alternate" href="https://www.usenet-rewind.com/" />
+    <ns0:summary>Usenet Rewind provides a dedicated search engine designed to help you search through historical Usenet archives.</ns0:summary>
+    <ns0:published>2026-09-12T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-12T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>OpenAI Releases GPT-Live-1 in the API for Developers</ns0:title>
     <ns0:id>urn:uuid:af0a6c69392495ce90eff22f3c2c6da6</ns0:id>

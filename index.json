@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-11T10:45:29Z",
-  "count": 62,
+  "generated": "2026-09-12T10:14:05Z",
+  "count": 64,
   "posts": [
+    {
+      "title": "Inside Apple Neural Engine: Reverse Engineering Silicon",
+      "date": "2026-09-12",
+      "tags": [
+        "apple",
+        "hardware",
+        "ai",
+        "silicon"
+      ],
+      "summary": "A deep technical breakdown uncovers how Apple's Neural Engine operates under the hood. Learn how researchers are reverse-engineering Apple silicon to better understand AI acceleration.",
+      "source_url": "https://eiln.github.io/posts/ane.html",
+      "source_title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "slug": "2026-09-12-inside-apple-neural-engine-reverse-engineering-silicon",
+      "file": "posts/2026-09-12-inside-apple-neural-engine-reverse-engineering-silicon.md"
+    },
+    {
+      "title": "Explore Early Web History with Usenet Rewind Archive Search Engine",
+      "date": "2026-09-12",
+      "tags": [
+        "usenet",
+        "search",
+        "archive",
+        "history"
+      ],
+      "summary": "Usenet Rewind provides a dedicated search engine designed to help you search through historical Usenet archives.",
+      "source_url": "https://www.usenet-rewind.com/",
+      "source_title": "Usenet rewind archive search engine",
+      "slug": "2026-09-12-explore-early-web-history-with-usenet-rewind-archive-search-engi",
+      "file": "posts/2026-09-12-explore-early-web-history-with-usenet-rewind-archive-search-engi.md"
+    },
     {
       "title": "OpenAI Releases GPT-Live-1 in the API for Developers",
       "date": "2026-09-11",
