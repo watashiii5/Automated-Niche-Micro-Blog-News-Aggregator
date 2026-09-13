@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-12T10:14:05Z</ns0:updated>
+  <ns0:updated>2026-09-13T11:14:49Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Revolut Discloses Data Breach Stemming from Fake Government Requests</ns0:title>
+    <ns0:id>urn:uuid:f14989df800cc8e8d4c951cfd721c45f</ns0:id>
+    <ns0:link rel="alternate" href="https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/" />
+    <ns0:summary>Fintech platform Revolut has confirmed a customer data breach triggered by bad actors posing as government officials submitting fraudulent data demands.</ns0:summary>
+    <ns0:published>2026-09-13T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-13T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Homebrew 7.0.0 Arrives for Package Management</ns0:title>
+    <ns0:id>urn:uuid:2d71978fdead75c845d98d390d26a41f</ns0:id>
+    <ns0:link rel="alternate" href="https://brew.sh/2026/09/13/homebrew-7.0.0/" />
+    <ns0:summary>Homebrew has officially released version 7.0.0, sparking initial buzz and discussion across developer communities.</ns0:summary>
+    <ns0:published>2026-09-13T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-13T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Inside Apple Neural Engine: Reverse Engineering Silicon</ns0:title>
     <ns0:id>urn:uuid:c65d16dc16596616cc94f0d38acd18fc</ns0:id>

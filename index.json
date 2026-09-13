@@ -3,9 +3,40 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-12T10:14:05Z",
-  "count": 64,
+  "generated": "2026-09-13T11:14:49Z",
+  "count": 66,
   "posts": [
+    {
+      "title": "Revolut Discloses Data Breach Stemming from Fake Government Requests",
+      "date": "2026-09-13",
+      "tags": [
+        "cybersecurity",
+        "fintech",
+        "security",
+        "privacy",
+        "tech"
+      ],
+      "summary": "Fintech platform Revolut has confirmed a customer data breach triggered by bad actors posing as government officials submitting fraudulent data demands.",
+      "source_url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "source_title": "Revolut confirms customer data breach through fake government requests",
+      "slug": "2026-09-13-revolut-discloses-data-breach-stemming-from-fake-government-requ",
+      "file": "posts/2026-09-13-revolut-discloses-data-breach-stemming-from-fake-government-requ.md"
+    },
+    {
+      "title": "Homebrew 7.0.0 Arrives for Package Management",
+      "date": "2026-09-13",
+      "tags": [
+        "homebrew",
+        "devtools",
+        "updates",
+        "software"
+      ],
+      "summary": "Homebrew has officially released version 7.0.0, sparking initial buzz and discussion across developer communities.",
+      "source_url": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+      "source_title": "Homebrew 7.0.0",
+      "slug": "2026-09-13-homebrew-700-arrives-for-package-management",
+      "file": "posts/2026-09-13-homebrew-700-arrives-for-package-management.md"
+    },
     {
       "title": "Inside Apple Neural Engine: Reverse Engineering Silicon",
       "date": "2026-09-12",
