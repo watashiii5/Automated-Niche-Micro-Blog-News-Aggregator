@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-13T11:14:49Z</ns0:updated>
+  <ns0:updated>2026-09-14T12:02:23Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Why You Should Watch AI in Materials Science and Biotech</ns0:title>
+    <ns0:id>urn:uuid:5a9950a941f761be08486e88fe5bc167</ns0:id>
+    <ns0:link rel="alternate" href="https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely" />
+    <ns0:summary>AI is expanding into specialized fields like materials science and bioscience. Keeping a close eye on these emerging capabilities is becoming essential for tracking tech progress.</ns0:summary>
+    <ns0:published>2026-09-14T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-14T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>HP ZGX Fury Opens Orders With GB300 Superchip and 748GB Memory</ns0:title>
+    <ns0:id>urn:uuid:7441ef037da6dac7704c4f364171e115</ns0:id>
+    <ns0:link rel="alternate" href="https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge" />
+    <ns0:summary>HP's new ZGX Fury workstation is now orderable, packing a GB300 Superchip and 748GB of unified memory for heavy AI workloads.</ns0:summary>
+    <ns0:published>2026-09-14T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-14T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Revolut Discloses Data Breach Stemming from Fake Government Requests</ns0:title>
     <ns0:id>urn:uuid:f14989df800cc8e8d4c951cfd721c45f</ns0:id>

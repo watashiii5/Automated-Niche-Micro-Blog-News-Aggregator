@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-13T11:14:49Z",
-  "count": 66,
+  "generated": "2026-09-14T12:02:23Z",
+  "count": 68,
   "posts": [
+    {
+      "title": "Why You Should Watch AI in Materials Science and Biotech",
+      "date": "2026-09-14",
+      "tags": [
+        "ai",
+        "biotech",
+        "science",
+        "emergingtech"
+      ],
+      "summary": "AI is expanding into specialized fields like materials science and bioscience. Keeping a close eye on these emerging capabilities is becoming essential for tracking tech progress.",
+      "source_url": "https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
+      "source_title": "Watch AI materials-science and bioscience abilities closely",
+      "slug": "2026-09-14-why-you-should-watch-ai-in-materials-science-and-biotech",
+      "file": "posts/2026-09-14-why-you-should-watch-ai-in-materials-science-and-biotech.md"
+    },
+    {
+      "title": "HP ZGX Fury Opens Orders With GB300 Superchip and 748GB Memory",
+      "date": "2026-09-14",
+      "tags": [
+        "hardware",
+        "ai",
+        "edge",
+        "hp"
+      ],
+      "summary": "HP's new ZGX Fury workstation is now orderable, packing a GB300 Superchip and 748GB of unified memory for heavy AI workloads.",
+      "source_url": "https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge",
+      "source_title": "HP ZGX Fury Is Now Orderable: GB300 Superchip, 748GB Unified Memory",
+      "slug": "2026-09-14-hp-zgx-fury-opens-orders-with-gb300-superchip-and-748gb-memory",
+      "file": "posts/2026-09-14-hp-zgx-fury-opens-orders-with-gb300-superchip-and-748gb-memory.md"
+    },
     {
       "title": "Revolut Discloses Data Breach Stemming from Fake Government Requests",
       "date": "2026-09-13",
