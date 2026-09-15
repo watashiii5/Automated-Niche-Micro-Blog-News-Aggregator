@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-14T12:02:23Z</ns0:updated>
+  <ns0:updated>2026-09-15T11:16:20Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Top Alternatives to MinIO for Local Single-Node S3 Storage</ns0:title>
+    <ns0:id>urn:uuid:283d4b7c6fca6bb631fd36e3cc1bca64</ns0:id>
+    <ns0:link rel="alternate" href="https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/" />
+    <ns0:summary>Looking for lightweight object storage options for local development? Explore single-node S3 alternatives to MinIO for your tech stack.</ns0:summary>
+    <ns0:published>2026-09-15T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-15T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Is AI Code Taking Over Open Source Android Apps?</ns0:title>
+    <ns0:id>urn:uuid:7e3a9f70703d283c16a11b675cbc4a91</ns0:id>
+    <ns0:link rel="alternate" href="https://tintotint.eu/whacky-corner/f-droid_slop/" />
+    <ns0:summary>A recent inquiry investigates the presence of LLM-generated software within the open-source F-Droid app ecosystem.</ns0:summary>
+    <ns0:published>2026-09-15T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-15T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Why You Should Watch AI in Materials Science and Biotech</ns0:title>
     <ns0:id>urn:uuid:5a9950a941f761be08486e88fe5bc167</ns0:id>

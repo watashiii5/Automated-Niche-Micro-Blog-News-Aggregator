@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-14T12:02:23Z",
-  "count": 68,
+  "generated": "2026-09-15T11:16:20Z",
+  "count": 70,
   "posts": [
+    {
+      "title": "Top Alternatives to MinIO for Local Single-Node S3 Storage",
+      "date": "2026-09-15",
+      "tags": [
+        "storage",
+        "s3",
+        "devops",
+        "opensource"
+      ],
+      "summary": "Looking for lightweight object storage options for local development? Explore single-node S3 alternatives to MinIO for your tech stack.",
+      "source_url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+      "source_title": "Alternatives to MinIO for single-node local S3",
+      "slug": "2026-09-15-top-alternatives-to-minio-for-local-single-node-s3-storage",
+      "file": "posts/2026-09-15-top-alternatives-to-minio-for-local-single-node-s3-storage.md"
+    },
+    {
+      "title": "Is AI Code Taking Over Open Source Android Apps?",
+      "date": "2026-09-15",
+      "tags": [
+        "ai",
+        "opensource",
+        "android",
+        "fdroid"
+      ],
+      "summary": "A recent inquiry investigates the presence of LLM-generated software within the open-source F-Droid app ecosystem.",
+      "source_url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
+      "source_title": "How much of F-Droid is LLM generated?",
+      "slug": "2026-09-15-is-ai-code-taking-over-open-source-android-apps",
+      "file": "posts/2026-09-15-is-ai-code-taking-over-open-source-android-apps.md"
+    },
     {
       "title": "Why You Should Watch AI in Materials Science and Biotech",
       "date": "2026-09-14",
