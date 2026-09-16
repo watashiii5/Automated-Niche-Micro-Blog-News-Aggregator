@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-15T11:16:20Z</ns0:updated>
+  <ns0:updated>2026-09-16T10:59:06Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>MartyPC: A Cycle-Accurate IBM PC/XT Emulator</ns0:title>
+    <ns0:id>urn:uuid:20adcbe0dc28530976d16fef10d9843f</ns0:id>
+    <ns0:link rel="alternate" href="https://github.com/dbalsom/martypc" />
+    <ns0:summary>MartyPC brings extreme hardware precision to retro computing with a cycle-accurate IBM PC/XT emulator project.</ns0:summary>
+    <ns0:published>2026-09-16T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-16T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Learning to Code in the Era of Large Language Models</ns0:title>
+    <ns0:id>urn:uuid:2fd27899b19de40c474b7f68848713c6</ns0:id>
+    <ns0:link rel="alternate" href="https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/" />
+    <ns0:summary>How does software education adapt when AI can write code on demand? A new post explores learning programming alongside LLMs.</ns0:summary>
+    <ns0:published>2026-09-16T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-16T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Top Alternatives to MinIO for Local Single-Node S3 Storage</ns0:title>
     <ns0:id>urn:uuid:283d4b7c6fca6bb631fd36e3cc1bca64</ns0:id>

@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-15T11:16:20Z",
-  "count": 70,
+  "generated": "2026-09-16T10:59:06Z",
+  "count": 72,
   "posts": [
+    {
+      "title": "MartyPC: A Cycle-Accurate IBM PC/XT Emulator",
+      "date": "2026-09-16",
+      "tags": [
+        "emulator",
+        "opensource",
+        "retro",
+        "hardware"
+      ],
+      "summary": "MartyPC brings extreme hardware precision to retro computing with a cycle-accurate IBM PC/XT emulator project.",
+      "source_url": "https://github.com/dbalsom/martypc",
+      "source_title": "MartyPC – A Cycle-Accurate IBM PC/XT Emulator",
+      "slug": "2026-09-16-martypc-a-cycle-accurate-ibm-pcxt-emulator",
+      "file": "posts/2026-09-16-martypc-a-cycle-accurate-ibm-pcxt-emulator.md"
+    },
+    {
+      "title": "Learning to Code in the Era of Large Language Models",
+      "date": "2026-09-16",
+      "tags": [
+        "ai",
+        "programming",
+        "llm",
+        "education"
+      ],
+      "summary": "How does software education adapt when AI can write code on demand? A new post explores learning programming alongside LLMs.",
+      "source_url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "source_title": "Learning Programming in an Age of LLMs",
+      "slug": "2026-09-16-learning-to-code-in-the-era-of-large-language-models",
+      "file": "posts/2026-09-16-learning-to-code-in-the-era-of-large-language-models.md"
+    },
     {
       "title": "Top Alternatives to MinIO for Local Single-Node S3 Storage",
       "date": "2026-09-15",
