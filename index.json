@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-16T10:59:06Z",
-  "count": 72,
+  "generated": "2026-09-17T11:08:49Z",
+  "count": 74,
   "posts": [
+    {
+      "title": "Native Document Chunking Comes to Manticore Vector Search",
+      "date": "2026-09-17",
+      "tags": [
+        "ai",
+        "search",
+        "databases",
+        "vectors"
+      ],
+      "summary": "Manticore Search now handles text auto-chunking directly inside the engine, making vector search across lengthy documents smoother and more efficient.",
+      "source_url": "https://manticoresearch.com/blog/auto-chunking/",
+      "source_title": "Better Vector Search for Long Documents: Chunking Inside Manticore Search",
+      "slug": "2026-09-17-native-document-chunking-comes-to-manticore-vector-search",
+      "file": "posts/2026-09-17-native-document-chunking-comes-to-manticore-vector-search.md"
+    },
+    {
+      "title": "GLM Takes Control With Custom AI Inference Infrastructure",
+      "date": "2026-09-17",
+      "tags": [
+        "ai",
+        "infrastructure",
+        "glm",
+        "tech"
+      ],
+      "summary": "GLM has developed its own custom inference infrastructure to power its AI models, optimizing serving capabilities and compute control.",
+      "source_url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "source_title": "GLM Built Its Own Inference Infrastructure",
+      "slug": "2026-09-17-glm-takes-control-with-custom-ai-inference-infrastructure",
+      "file": "posts/2026-09-17-glm-takes-control-with-custom-ai-inference-infrastructure.md"
+    },
     {
       "title": "MartyPC: A Cycle-Accurate IBM PC/XT Emulator",
       "date": "2026-09-16",

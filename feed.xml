@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-16T10:59:06Z</ns0:updated>
+  <ns0:updated>2026-09-17T11:08:49Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Native Document Chunking Comes to Manticore Vector Search</ns0:title>
+    <ns0:id>urn:uuid:a9527e7f9b873bbeda88b8a851227640</ns0:id>
+    <ns0:link rel="alternate" href="https://manticoresearch.com/blog/auto-chunking/" />
+    <ns0:summary>Manticore Search now handles text auto-chunking directly inside the engine, making vector search across lengthy documents smoother and more efficient.</ns0:summary>
+    <ns0:published>2026-09-17T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-17T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>GLM Takes Control With Custom AI Inference Infrastructure</ns0:title>
+    <ns0:id>urn:uuid:fe14fb22f340fe94f208ef193644f204</ns0:id>
+    <ns0:link rel="alternate" href="https://z.ai/blog/glm-built-its-inference-infrastructure" />
+    <ns0:summary>GLM has developed its own custom inference infrastructure to power its AI models, optimizing serving capabilities and compute control.</ns0:summary>
+    <ns0:published>2026-09-17T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-17T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>MartyPC: A Cycle-Accurate IBM PC/XT Emulator</ns0:title>
     <ns0:id>urn:uuid:20adcbe0dc28530976d16fef10d9843f</ns0:id>
