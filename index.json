@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-18T10:43:39Z",
-  "count": 74,
+  "generated": "2026-09-19T10:27:08Z",
+  "count": 76,
   "posts": [
+    {
+      "title": "GPT-6 Astra Cracks Historical WWI German Radio Cipher",
+      "date": "2026-09-19",
+      "tags": [
+        "ai",
+        "cryptography",
+        "gpt6",
+        "tech"
+      ],
+      "summary": "Next-level AI reasoning tackles historical cryptography as GPT-6 Astra successfully decrypts a complex WWI German radio cipher.",
+      "source_url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "source_title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "slug": "2026-09-19-gpt-6-astra-cracks-historical-wwi-german-radio-cipher",
+      "file": "posts/2026-09-19-gpt-6-astra-cracks-historical-wwi-german-radio-cipher.md"
+    },
+    {
+      "title": "AI Event Posters Do Not Have to Look Terrible",
+      "date": "2026-09-19",
+      "tags": [
+        "ai",
+        "design",
+        "posters",
+        "graphics"
+      ],
+      "summary": "Generative AI often gets a bad reputation when used for event design, but artificial intelligence posters do not have to look awful.",
+      "source_url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "source_title": "AI posters don't have to be horrible",
+      "slug": "2026-09-19-ai-event-posters-do-not-have-to-look-terrible",
+      "file": "posts/2026-09-19-ai-event-posters-do-not-have-to-look-terrible.md"
+    },
     {
       "title": "Native Document Chunking Comes to Manticore Vector Search",
       "date": "2026-09-17",

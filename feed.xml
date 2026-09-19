@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-18T10:43:39Z</ns0:updated>
+  <ns0:updated>2026-09-19T10:27:08Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>GPT-6 Astra Cracks Historical WWI German Radio Cipher</ns0:title>
+    <ns0:id>urn:uuid:8983e05c484894d9bac17ebb522975b4</ns0:id>
+    <ns0:link rel="alternate" href="https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio" />
+    <ns0:summary>Next-level AI reasoning tackles historical cryptography as GPT-6 Astra successfully decrypts a complex WWI German radio cipher.</ns0:summary>
+    <ns0:published>2026-09-19T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-19T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>AI Event Posters Do Not Have to Look Terrible</ns0:title>
+    <ns0:id>urn:uuid:22fc0520b1c9a2280de101fe188e592a</ns0:id>
+    <ns0:link rel="alternate" href="https://john.hartnup.uk/2026/06/07/ai-event-posters.html" />
+    <ns0:summary>Generative AI often gets a bad reputation when used for event design, but artificial intelligence posters do not have to look awful.</ns0:summary>
+    <ns0:published>2026-09-19T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-19T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Native Document Chunking Comes to Manticore Vector Search</ns0:title>
     <ns0:id>urn:uuid:a9527e7f9b873bbeda88b8a851227640</ns0:id>
