@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-19T10:27:08Z",
-  "count": 76,
+  "generated": "2026-09-20T10:48:01Z",
+  "count": 78,
   "posts": [
+    {
+      "title": "Spain Restricts Access to Archive.today and Mirror Sites",
+      "date": "2026-09-20",
+      "tags": [
+        "internet",
+        "europe",
+        "privacy",
+        "tech"
+      ],
+      "summary": "Spain has issued orders to block the popular web archiving service Archive.today along with its mirror domains. Here is a quick look at the recent web directive.",
+      "source_url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+      "source_title": "Spain Orders Blocks on Archive.today and Its Mirrors",
+      "slug": "2026-09-20-spain-restricts-access-to-archivetoday-and-mirror-sites",
+      "file": "posts/2026-09-20-spain-restricts-access-to-archivetoday-and-mirror-sites.md"
+    },
+    {
+      "title": "Microsoft Ports Copilot Runtime to Rust Using AI Agents",
+      "date": "2026-09-20",
+      "tags": [
+        "microsoft",
+        "rust",
+        "ai",
+        "agents"
+      ],
+      "summary": "Microsoft leveraged AI agents to port its Copilot runtime to Rust for $120K. Automated workflows are reshaping high-level software engineering.",
+      "source_url": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
+      "source_title": "Microsoft agentically ports Copilot runtime to Rust for $120K",
+      "slug": "2026-09-20-microsoft-ports-copilot-runtime-to-rust-using-ai-agents",
+      "file": "posts/2026-09-20-microsoft-ports-copilot-runtime-to-rust-using-ai-agents.md"
+    },
     {
       "title": "GPT-6 Astra Cracks Historical WWI German Radio Cipher",
       "date": "2026-09-19",

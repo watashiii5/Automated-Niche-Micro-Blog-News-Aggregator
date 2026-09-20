@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-19T10:27:08Z</ns0:updated>
+  <ns0:updated>2026-09-20T10:48:01Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Spain Restricts Access to Archive.today and Mirror Sites</ns0:title>
+    <ns0:id>urn:uuid:c0f55f833b2ae0fdd19af8f271844200</ns0:id>
+    <ns0:link rel="alternate" href="https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors" />
+    <ns0:summary>Spain has issued orders to block the popular web archiving service Archive.today along with its mirror domains. Here is a quick look at the recent web directive.</ns0:summary>
+    <ns0:published>2026-09-20T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-20T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Microsoft Ports Copilot Runtime to Rust Using AI Agents</ns0:title>
+    <ns0:id>urn:uuid:dae7ddd9619e4ffa0b59ee64b649b92c</ns0:id>
+    <ns0:link rel="alternate" href="https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549" />
+    <ns0:summary>Microsoft leveraged AI agents to port its Copilot runtime to Rust for $120K. Automated workflows are reshaping high-level software engineering.</ns0:summary>
+    <ns0:published>2026-09-20T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-20T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>GPT-6 Astra Cracks Historical WWI German Radio Cipher</ns0:title>
     <ns0:id>urn:uuid:8983e05c484894d9bac17ebb522975b4</ns0:id>
