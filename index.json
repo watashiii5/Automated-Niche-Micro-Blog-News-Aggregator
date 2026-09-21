@@ -3,9 +3,24 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-20T10:48:01Z",
-  "count": 78,
+  "generated": "2026-09-21T12:16:13Z",
+  "count": 79,
   "posts": [
+    {
+      "title": "Spot Hidden Cameras Easily with ZuckOff",
+      "date": "2026-09-21",
+      "tags": [
+        "privacy",
+        "security",
+        "tech",
+        "apps"
+      ],
+      "summary": "ZuckOff helps you detect when a camera is present in your space, giving you quick awareness of your privacy surroundings.",
+      "source_url": "https://zuckoff.app/",
+      "source_title": "ZuckOff Know when a camera is in the room",
+      "slug": "2026-09-21-spot-hidden-cameras-easily-with-zuckoff",
+      "file": "posts/2026-09-21-spot-hidden-cameras-easily-with-zuckoff.md"
+    },
     {
       "title": "Spain Restricts Access to Archive.today and Mirror Sites",
       "date": "2026-09-20",

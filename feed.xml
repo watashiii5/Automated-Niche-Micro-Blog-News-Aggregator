@@ -2,8 +2,16 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-20T10:48:01Z</ns0:updated>
+  <ns0:updated>2026-09-21T12:16:13Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Spot Hidden Cameras Easily with ZuckOff</ns0:title>
+    <ns0:id>urn:uuid:f4797098e717afd4c13b224e57a64d5a</ns0:id>
+    <ns0:link rel="alternate" href="https://zuckoff.app/" />
+    <ns0:summary>ZuckOff helps you detect when a camera is present in your space, giving you quick awareness of your privacy surroundings.</ns0:summary>
+    <ns0:published>2026-09-21T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-21T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Spain Restricts Access to Archive.today and Mirror Sites</ns0:title>
     <ns0:id>urn:uuid:c0f55f833b2ae0fdd19af8f271844200</ns0:id>
