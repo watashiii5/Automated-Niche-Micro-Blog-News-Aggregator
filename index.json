@@ -3,9 +3,24 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-22T11:06:26Z",
-  "count": 79,
+  "generated": "2026-09-23T10:56:40Z",
+  "count": 80,
   "posts": [
+    {
+      "title": "Inside AI Software Factories: Key Lessons from 3 Client Deployments",
+      "date": "2026-09-23",
+      "tags": [
+        "ai",
+        "software",
+        "tech",
+        "automation"
+      ],
+      "summary": "Take a look at what an AI software factory is and the core takeaways learned from three real client deployments.",
+      "source_url": "https://camplight.net/ai/ai-software-factory/",
+      "source_title": "What Is an AI Software Factory? Lessons from 3 Client Deployments",
+      "slug": "2026-09-23-inside-ai-software-factories-key-lessons-from-3-client-deploymen",
+      "file": "posts/2026-09-23-inside-ai-software-factories-key-lessons-from-3-client-deploymen.md"
+    },
     {
       "title": "Spot Hidden Cameras Easily with ZuckOff",
       "date": "2026-09-21",

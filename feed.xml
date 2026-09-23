@@ -2,8 +2,16 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-22T11:06:26Z</ns0:updated>
+  <ns0:updated>2026-09-23T10:56:40Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Inside AI Software Factories: Key Lessons from 3 Client Deployments</ns0:title>
+    <ns0:id>urn:uuid:11b7018aa90712a703dd1712a0cfe198</ns0:id>
+    <ns0:link rel="alternate" href="https://camplight.net/ai/ai-software-factory/" />
+    <ns0:summary>Take a look at what an AI software factory is and the core takeaways learned from three real client deployments.</ns0:summary>
+    <ns0:published>2026-09-23T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-23T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Spot Hidden Cameras Easily with ZuckOff</ns0:title>
     <ns0:id>urn:uuid:f4797098e717afd4c13b224e57a64d5a</ns0:id>
