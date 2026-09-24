@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-23T10:56:40Z",
-  "count": 80,
+  "generated": "2026-09-24T11:16:03Z",
+  "count": 82,
   "posts": [
+    {
+      "title": "Paper Office Debuts for AI Agent Document Editing",
+      "date": "2026-09-24",
+      "tags": [
+        "ai",
+        "agents",
+        "editing",
+        "tools"
+      ],
+      "summary": "Paper Instruments has launched Paper Office, a fresh tool aimed at enabling document editing with AI agents.",
+      "source_url": "https://www.paperinstruments.com/blog/introducing-paper-office",
+      "source_title": "Looks promising for document editing with your agent",
+      "slug": "2026-09-24-paper-office-debuts-for-ai-agent-document-editing",
+      "file": "posts/2026-09-24-paper-office-debuts-for-ai-agent-document-editing.md"
+    },
+    {
+      "title": "Meta Takes Down Critical Video Reviewing Its AI Glasses",
+      "date": "2026-09-24",
+      "tags": [
+        "meta",
+        "hardware",
+        "privacy",
+        "technews"
+      ],
+      "summary": "Meta reportedly removed a critical video covering its smart AI glasses after the creator filmed content at a Meta location.",
+      "source_url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "source_title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "slug": "2026-09-24-meta-takes-down-critical-video-reviewing-its-ai-glasses",
+      "file": "posts/2026-09-24-meta-takes-down-critical-video-reviewing-its-ai-glasses.md"
+    },
     {
       "title": "Inside AI Software Factories: Key Lessons from 3 Client Deployments",
       "date": "2026-09-23",

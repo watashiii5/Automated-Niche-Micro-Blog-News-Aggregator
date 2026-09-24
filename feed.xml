@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-23T10:56:40Z</ns0:updated>
+  <ns0:updated>2026-09-24T11:16:03Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Paper Office Debuts for AI Agent Document Editing</ns0:title>
+    <ns0:id>urn:uuid:3ce6ef166e47b379f9caf865b96ae1d2</ns0:id>
+    <ns0:link rel="alternate" href="https://www.paperinstruments.com/blog/introducing-paper-office" />
+    <ns0:summary>Paper Instruments has launched Paper Office, a fresh tool aimed at enabling document editing with AI agents.</ns0:summary>
+    <ns0:published>2026-09-24T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-24T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Meta Takes Down Critical Video Reviewing Its AI Glasses</ns0:title>
+    <ns0:id>urn:uuid:59f015700d250f10bd98824d527eb16a</ns0:id>
+    <ns0:link rel="alternate" href="https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/" />
+    <ns0:summary>Meta reportedly removed a critical video covering its smart AI glasses after the creator filmed content at a Meta location.</ns0:summary>
+    <ns0:published>2026-09-24T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-24T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Inside AI Software Factories: Key Lessons from 3 Client Deployments</ns0:title>
     <ns0:id>urn:uuid:11b7018aa90712a703dd1712a0cfe198</ns0:id>
