@@ -3,9 +3,39 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-24T11:16:03Z",
-  "count": 82,
+  "generated": "2026-09-25T11:20:41Z",
+  "count": 84,
   "posts": [
+    {
+      "title": "Literary Debate Ignites in France Over Author Accused of Using AI",
+      "date": "2026-09-25",
+      "tags": [
+        "ai",
+        "france",
+        "news",
+        "tech"
+      ],
+      "summary": "An award-winning author in France is at the center of a major public uproar following accusations of using artificial intelligence.",
+      "source_url": "https://www.bbc.com/news/articles/ck7v4y45893go",
+      "source_title": "Uproar in France over award-winning author accused of using AI",
+      "slug": "2026-09-25-literary-debate-ignites-in-france-over-author-accused-of-using-a",
+      "file": "posts/2026-09-25-literary-debate-ignites-in-france-over-author-accused-of-using-a.md"
+    },
+    {
+      "title": "Ink and Switch Launches New Interactive Homepage",
+      "date": "2026-09-25",
+      "tags": [
+        "software",
+        "tech",
+        "design",
+        "interactive"
+      ],
+      "summary": "Independent research lab Ink and Switch has debuted a new interactive homepage. Explore their fresh digital presence today.",
+      "source_url": "https://www.inkandswitch.com/",
+      "source_title": "Ink and Switch Interactive Homepage",
+      "slug": "2026-09-25-ink-and-switch-launches-new-interactive-homepage",
+      "file": "posts/2026-09-25-ink-and-switch-launches-new-interactive-homepage.md"
+    },
     {
       "title": "Paper Office Debuts for AI Agent Document Editing",
       "date": "2026-09-24",

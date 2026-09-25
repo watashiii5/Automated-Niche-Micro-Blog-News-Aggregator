@@ -2,8 +2,24 @@
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom">
   <ns0:title>NichePulse</ns0:title>
   <ns0:id>https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/</ns0:id>
-  <ns0:updated>2026-09-24T11:16:03Z</ns0:updated>
+  <ns0:updated>2026-09-25T11:20:41Z</ns0:updated>
   <ns0:link rel="self" href="https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/feed.xml" />
+  <ns0:entry>
+    <ns0:title>Literary Debate Ignites in France Over Author Accused of Using AI</ns0:title>
+    <ns0:id>urn:uuid:050fd78c15ad618be563d0edc59fdb12</ns0:id>
+    <ns0:link rel="alternate" href="https://www.bbc.com/news/articles/ck7v4y45893go" />
+    <ns0:summary>An award-winning author in France is at the center of a major public uproar following accusations of using artificial intelligence.</ns0:summary>
+    <ns0:published>2026-09-25T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-25T00:00:00Z</ns0:updated>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:title>Ink and Switch Launches New Interactive Homepage</ns0:title>
+    <ns0:id>urn:uuid:fe00ee9808facc298006a3abdfc88425</ns0:id>
+    <ns0:link rel="alternate" href="https://www.inkandswitch.com/" />
+    <ns0:summary>Independent research lab Ink and Switch has debuted a new interactive homepage. Explore their fresh digital presence today.</ns0:summary>
+    <ns0:published>2026-09-25T00:00:00Z</ns0:published>
+    <ns0:updated>2026-09-25T00:00:00Z</ns0:updated>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Paper Office Debuts for AI Agent Document Editing</ns0:title>
     <ns0:id>urn:uuid:3ce6ef166e47b379f9caf865b96ae1d2</ns0:id>
