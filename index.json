@@ -3,9 +3,25 @@
     "name": "NichePulse",
     "url": "https://watashiii5.github.io/Automated-Niche-Micro-Blog-News-Aggregator/"
   },
-  "generated": "2026-09-25T11:20:41Z",
-  "count": 84,
+  "generated": "2026-09-26T10:57:35Z",
+  "count": 85,
   "posts": [
+    {
+      "title": "How Developers Can Keep the Joy of Coding Alive in the LLM Era",
+      "date": "2026-09-26",
+      "tags": [
+        "programming",
+        "ai",
+        "llms",
+        "developers",
+        "tech"
+      ],
+      "summary": "As AI language models change how software gets built, developers are exploring ways to preserve the fun and craft of programming.",
+      "source_url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "source_title": "How to keep enjoying programming in a world of LLMs",
+      "slug": "2026-09-26-how-developers-can-keep-the-joy-of-coding-alive-in-the-llm-era",
+      "file": "posts/2026-09-26-how-developers-can-keep-the-joy-of-coding-alive-in-the-llm-era.md"
+    },
     {
       "title": "Literary Debate Ignites in France Over Author Accused of Using AI",
       "date": "2026-09-25",
